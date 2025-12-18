@@ -1,4 +1,10 @@
-export default function Blog() {
+import { useEffect, type ReactNode } from "react";
+
+export default function Blog(): ReactNode {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <iframe
       src="https://saadalamin.blogspot.com/"
