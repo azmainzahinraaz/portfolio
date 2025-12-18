@@ -1,68 +1,45 @@
+@import "tailwindcss";
+
 :root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
+  --max-width: 1820px;
+  --small-max-width: 1320px;
 
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  --primary-bg-color: #18191a;
+  --secondary-bg-color: #242526;
 
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  --gray: #aaa;
+  --dark-gray: #454546;
+  --blue-gray: #212529;
+  --blue: #0d6efd;
 }
 
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
+/* tailwind variables */
+@theme inline {
+  --color-primary-bg-color: var(--primary-bg-color);
+  --color-secondary-bg-color: var(--secondary-bg-color);
+
+  --color-gray: var(--gray);
+  --color-dark-gray: var(--dark-gray);
+  --color-blue-gray: var(--blue-gray);
+  --color-blue: var(--blue);
+
+  --spacing-max-width: var(--max-width);
+  --spacing-small-max-width: var(--small-max-width);
+  --breakpoint-xs: 25rem; /* 400px */
 }
 
 body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+  background-color: var(--primary-bg-color);
 }
 
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
-}
-
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: border-color 0.25s;
-}
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
-}
-
-@media (prefers-color-scheme: light) {
+@media screen and (max-width: 1800px) {
   :root {
-    color: #213547;
-    background-color: #ffffff;
+    --max-width: 97vw;
   }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
+}
+
+@media screen and (max-width: 1400px) {
+  :root {
+    --small-max-width: 97vw;
   }
 }
