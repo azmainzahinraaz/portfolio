@@ -1,12 +1,11 @@
 import { socialLinks } from "@/services/website-data";
 import type { ReactNode } from "react";
+import BlockText from "../ui/block-text";
 
 export default function SocialLinks(): ReactNode {
   return (
     <section className="w-full h-full flex flex-col gap-7">
-      <h2 className="text-3xl text-white relative flex items-center font-semibold before:w-2 before:h-[70%] before:absolute before:-left-7 before:bg-red">
-        Follow
-      </h2>
+      <BlockText>Follow</BlockText>
       <div className="w-full flex gap-4">
         {socialLinks.map((social, index) => (
           <a
