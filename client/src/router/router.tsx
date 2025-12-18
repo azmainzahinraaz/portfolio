@@ -3,6 +3,7 @@ import App from "@/App";
 import UserLayout from "@/layouts/user-layout";
 import Blog from "@/pages/blog";
 import Contents from "@/pages/contents";
+import About from "@/pages/about";
 
 export const router = createBrowserRouter([
   {
@@ -12,6 +13,10 @@ export const router = createBrowserRouter([
       {
         index: true,
         element: <App />,
+      },
+      {
+        path: "/about",
+        element: <About />,
       },
       {
         path: "/contents",

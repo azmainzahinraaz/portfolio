@@ -96,7 +96,7 @@ export default function FacebookCard({
               <video
                 src={videoUrl}
                 controls
-                className="h-[85vh] min-h-[450px] max-w-[450px]"
+                className="h-[85vh] min-h-112.5 max-w-112.5"
                 autoPlay
               ></video>
             </div>

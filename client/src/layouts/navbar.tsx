@@ -22,7 +22,7 @@ export default function Navbar(): ReactNode {
 
         {/* Desktop navbar */}
         <Activity mode={window.innerWidth < 640 ? "hidden" : "visible"}>
-          <menu className="list-none flex gap-8">
+          <menu className="list-none flex gap-10">
             {navLinks.map(({ name, path }) => (
               <li key={name}>
                 <NavLink
@@ -60,6 +60,7 @@ export default function Navbar(): ReactNode {
                           `block w-full  text-white hover:bg-dark-gray transition-all duration-200 px-4 py-2 pr-15 ` +
                           (isActive ? "bg-blue" : "bg-secondary-bg-color")
                         }
+                        onClick={() => setIsNavbarOpen(false)}
                       >
                         {name}
                       </NavLink>

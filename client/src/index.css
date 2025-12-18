@@ -10,8 +10,12 @@
   --gray: #aaa;
   --dark-gray: #454546;
   --blue-gray: #212529;
+
   --blue: #0d6efd;
   --dark-blue: #0b5ed7;
+
+  --orange: #ff7f00;
+  --red: #e92f2f;
 }
 
 /* tailwind variables */
@@ -22,8 +26,12 @@
   --color-gray: var(--gray);
   --color-dark-gray: var(--dark-gray);
   --color-blue-gray: var(--blue-gray);
+
   --color-blue: var(--blue);
   --color-dark-blue: var(--dark-blue);
+
+  --color-orange: var(--orange);
+  --color-red: var(--red);
 
   --spacing-max-width: var(--max-width);
   --spacing-small-max-width: var(--small-max-width);
@@ -43,5 +51,43 @@ body {
 @media screen and (max-width: 1400px) {
   :root {
     --small-max-width: 92vw;
+  }
+}
+
+.loader-container {
+  width: 3.25em;
+  transform-origin: center;
+  animation: rotate4 2s linear infinite;
+}
+
+.loader {
+  fill: none;
+  stroke: var(--blue);
+  stroke-width: 3;
+  stroke-dasharray: 2, 200;
+  stroke-dashoffset: 0;
+  stroke-linecap: round;
+  animation: dash4 1.5s ease-in-out infinite;
+}
+
+@keyframes rotate4 {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes dash4 {
+  0% {
+    stroke-dasharray: 1, 200;
+    stroke-dashoffset: 0;
+  }
+
+  50% {
+    stroke-dasharray: 90, 200;
+    stroke-dashoffset: -35px;
+  }
+
+  100% {
+    stroke-dashoffset: -125px;
   }
 }
