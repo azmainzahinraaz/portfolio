@@ -1,4 +1,4 @@
-import type { TestimonialType } from "@/types/global-types";
+import type { FaqType, TestimonialType } from "@/types/global-types";
 import type { ReactNode } from "react";
 import {
   FaFacebook,
@@ -150,3 +150,71 @@ export const socialLinks: { platform: string; icon: ReactNode; url: string }[] =
       url: "#",
     },
   ];
+
+export const faqData: FaqType[] = [
+  {
+    question: "What services do you offer?",
+    answer:
+      "I offer web development, content creation, and digital marketing services tailored to your needs.",
+  },
+  {
+    question: "How can I contact you for a project?",
+    answer:
+      "You can reach out to me via the contact form on my website or email me directly at",
+  },
+  {
+    question: "What is your development process?",
+    answer:
+      "My development process includes requirement analysis, design, development, testing, and deployment to ensure a high-quality product.",
+  },
+  {
+    question: "Do you provide ongoing support after project completion?",
+    answer:
+      "Yes, I offer maintenance and support services to ensure your project remains up-to-date and functional.",
+  },
+  {
+    question: "What technologies do you specialize in?",
+    answer:
+      "I specialize in modern web technologies such as React, Node.js, and Python, among others.",
+  },
+  {
+    question: "Can you help with SEO and digital marketing?",
+    answer:
+      "Absolutely! I provide SEO optimization and digital marketing strategies to help increase your online presence.",
+  },
+  {
+    question: "What are your rates for services?",
+    answer:
+      "My rates vary depending on the scope and complexity of the project. Please contact me for a detailed quote.",
+  },
+  {
+    question: "How long does a typical project take?",
+    answer:
+      "The timeline for a project depends on its requirements. I will provide an estimated timeline after discussing your needs.",
+  },
+  {
+    question: "Do you work with clients internationally?",
+    answer:
+      "Yes, I collaborate with clients from around the world and am comfortable working across different time zones.",
+  },
+  {
+    question: "Can you provide examples of your previous work?",
+    answer:
+      "Certainly! You can find my portfolio on my website, showcasing various projects I've completed for clients.",
+  },
+  {
+    question: "What sets you apart from other developers?",
+    answer:
+      "My commitment to quality, attention to detail, and personalized approach to each project ensure that I deliver exceptional results tailored to my clients' needs.",
+  },
+  {
+    question: "How do you handle project revisions?",
+    answer:
+      "I offer a set number of revisions based on the project scope to ensure the final product meets your expectations.",
+  },
+  {
+    question: "What is your preferred method of communication?",
+    answer:
+      "I am flexible with communication methods, including email, video calls, and instant messaging, depending on your preference.",
+  },
+];

@@ -3,3 +3,8 @@ export type TestimonialType = {
   imageUrl: string;
   testimonial: string;
 };
+
+export type FaqType = {
+  question: string;
+  answer: string;
+};
