@@ -1,13 +1,21 @@
-import type { FaqType, PressType, TestimonialType } from "@/types/global-types";
+import type {
+  FaqType,
+  FeatureType,
+  PressType,
+  TestimonialType,
+} from "@/types/global-types";
 import type { ReactNode } from "react";
 import {
   FaFacebook,
   FaGithub,
   FaInstagram,
   FaLinkedin,
+  FaMedal,
   FaTwitter,
   FaYoutube,
 } from "react-icons/fa";
+import { MdStars } from "react-icons/md";
+import { TbRosetteDiscountCheckFilled } from "react-icons/tb";
 
 export const navLinks: { name: string; path: string }[] = [
   { name: "Home", path: "/" },
@@ -249,5 +257,29 @@ export const pressData: PressType[] = [
       '<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Finsightstodayy%2Fposts%2Fpfbid02cAHsyMqiheppHYTWizct9hFVm3KJhw114CsrLdg3kAVqPHx3K6J2z6dSLCPueTVal&width=560&show_text=false&appId=992880515259603&height=314" width="560" height="314" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="web-share"></iframe>',
     title:
       "From Madrasah to USA: Saad Secures 3 Crore Scholarship to Study at Knox College",
+  },
+];
+
+export const featureData: FeatureType[] = [
+  {
+    icon: <FaMedal />,
+    title: "7+ Years Experience",
+    description:
+      "Founded Muktir Ghonta, Videophics. Worked as a Campus Ambassador at DMFF.",
+    color: "#fa8572",
+  },
+  {
+    icon: <MdStars />,
+    title: "Top Six Finalist",
+    description:
+      "Glocal Teen Hero Top Six Finalist 2022, Best Designer Award by Elan Records.",
+    color: "#b24968",
+  },
+  {
+    icon: <TbRosetteDiscountCheckFilled />,
+    title: "Google Verified",
+    description:
+      "He is verified by Google as a film-maker, musical artist and graphic designer",
+    color: "#4285f4",
   },
 ];

@@ -82,7 +82,7 @@ export default function FacebookCard({
         className="w-full h-full flex justify-center items-center"
         onWheel={(e) => e.stopPropagation()}
       >
-        <div className="w-full max-w-112.5 h-full max-h-[90vh] overflow-y-auto rounded-md bg-secondary-bg-color">
+        <div className="w-fit max-w-112.5 max-sm:max-w-full h-full max-h-[90vh] overflow-y-auto rounded-md bg-secondary-bg-color">
           <div className="w-full h-full flex flex-col">
             <div className="w-full flex justify-between items-center gap-4 p-4">
               <h2 className="text-white text-base">{title}</h2>
@@ -93,7 +93,7 @@ export default function FacebookCard({
                 <RxCross2 />
               </button>
             </div>
-            <div className="w-full h-full aspect-9/16 ">
+            <div className="aspect-9/16 ">
               <video
                 src={videoUrl}
                 controls

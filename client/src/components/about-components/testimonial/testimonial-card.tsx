@@ -56,7 +56,7 @@ export default function TestimonialCard({
         className="w-full h-full flex justify-center items-center"
         onWheel={(e) => e.stopPropagation()}
       >
-        <div className="w-full max-w-112.5 h-fit max-h-[90vh] overflow-y-auto rounded-md bg-secondary-bg-color">
+        <div className="w-full max-w-112.5 max-sm:max-w-small-max-width h-fit max-h-[90vh] max-sm:max-h-[97vh] overflow-y-auto rounded-md bg-secondary-bg-color">
           <div className="w-full h-full flex flex-col">
             <div className="w-full flex justify-between items-center gap-4 p-4 border-b border-gray">
               <h2 className="text-white text-base">{title}</h2>

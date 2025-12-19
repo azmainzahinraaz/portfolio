@@ -1,3 +1,4 @@
+import Features from "@/components/home-components/features-components/features";
 import Hero from "@/components/home-components/hero-components/hero";
 import Press from "@/components/home-components/press-components/press";
 import { useEffect, type ReactNode } from "react";
@@ -10,6 +11,7 @@ export default function Home(): ReactNode {
     <main className="w-full h-full flex flex-col items-center">
       <Hero />
       <Press />
+      <Features />
     </main>
   );
 }

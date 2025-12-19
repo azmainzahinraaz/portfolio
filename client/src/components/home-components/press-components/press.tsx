@@ -13,7 +13,7 @@ export default function Press(): ReactNode {
   return (
     <>
       <section className="w-full max-w-max-width py-10 flex flex-col gap-10 bg-primary-bg-color">
-        <div className="w-full flex gap-10 justify-between items-center z-99">
+        <div className="w-full flex flex-wrap gap-10 justify-between items-center z-99">
           <BlockText className="ml-7">Press Release</BlockText>
           <PrimaryBtn
             className="text-base px-6 flex items-center gap-2"
@@ -22,7 +22,7 @@ export default function Press(): ReactNode {
             Browse More <FaPlus className="text-sm" />
           </PrimaryBtn>
         </div>
-        <div className="w-full grid grid-cols-4 gap-6">
+        <div className="w-full grid grid-cols-4 max-lg:grid-cols-2 max-sm:grid-cols-1 gap-6">
           {pressData.slice(0, 4).map((pressItem, index) => (
             <PressCard key={index} pressData={pressItem} />
           ))}
@@ -36,7 +36,7 @@ export default function Press(): ReactNode {
         className="w-full h-full flex justify-center items-center"
         onWheel={(e) => e.stopPropagation()}
       >
-        <div className="w-full max-w-122.5 h-fit max-h-[90vh] overflow-y-auto rounded-md bg-secondary-bg-color">
+        <div className="w-full max-w-122.5 max-sm:max-w-full h-fit max-h-[90vh] max-sm:max-h-screen overflow-y-auto rounded-md bg-secondary-bg-color">
           <div className="w-full h-full flex flex-col">
             <div className="w-full flex justify-between items-center gap-4 p-4 border-b border-gray/60">
               <h2 className="text-white text-lg font-semibold">
@@ -54,7 +54,7 @@ export default function Press(): ReactNode {
                 {pressData.map((pressItem) => (
                   <div
                     key={pressItem.title}
-                    className="w-full h-full p-3 flex gap-5 items-center border-b border-gray/60 last:border-0"
+                    className="w-full h-full p-3 flex max-xs:flex-col gap-5 items-center border-b border-gray/60 last:border-0"
                   >
                     {pressItem.iframe ? (
                       <div className="w-full h-full max-w-50 max-h-50 overflow-hidden aspect-video press-iframe">

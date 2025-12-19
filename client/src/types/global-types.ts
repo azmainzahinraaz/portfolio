@@ -16,3 +16,10 @@ export type PressType = {
   title: string;
   iframe?: string;
 };
+
+export type FeatureType = {
+  icon: React.ReactNode;
+  title: string;
+  description: string;
+  color: string;
+};
