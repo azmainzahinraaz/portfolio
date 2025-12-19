@@ -3,6 +3,9 @@ import Features from "@/components/home-components/features-components/features"
 import Hero from "@/components/home-components/hero-components/hero";
 import Press from "@/components/home-components/press-components/press";
 import { useEffect, type ReactNode } from "react";
+import Faq from "./faq";
+import WorkedWith from "@/components/home-components/worked-with";
+import AboutSwiper from "@/components/home-components/about-swiper";
 
 export default function Home(): ReactNode {
   useEffect(() => {
@@ -14,6 +17,11 @@ export default function Home(): ReactNode {
       <Press />
       <Features />
       <AboutSection />
+      <WorkedWith />
+      <AboutSwiper />
+      <div className="w-full h-full py-15 bg-black">
+        <Faq isHomePage={true} />
+      </div>
     </main>
   );
 }

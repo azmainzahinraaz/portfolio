@@ -43,7 +43,7 @@ export default function PublicationCard({
               >
                 {pub.logoUrl && (
                   <img
-                    src={`/images/company/${pub.logoUrl}`}
+                    src={`/images/icons/company/${pub.logoUrl}`}
                     alt={pub.name}
                     className="inline-block w-6 h-6 mr-1"
                   />

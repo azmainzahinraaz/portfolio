@@ -2,7 +2,7 @@
 
 :root {
   --max-width: 1820px;
-  --small-max-width: 1320px;
+  --small-max-width: 1296px;
 
   --primary-bg-color: #18191a;
   --secondary-bg-color: #242526;
@@ -14,6 +14,8 @@
 
   --blue: #0d6efd;
   --dark-blue: #0b5ed7;
+
+  --black: #111111;
 
   --orange: #ff7f00;
   --red: #e92f2f;
@@ -34,6 +36,8 @@
 
   --color-orange: var(--orange);
   --color-red: var(--red);
+
+  --color-black: var(--black);
 
   --spacing-max-width: var(--max-width);
   --spacing-small-max-width: var(--small-max-width);
@@ -97,4 +101,17 @@ body {
 
 .press-iframe iframe {
   width: -webkit-fill-available !important;
+}
+
+.worked-with-slider {
+  animation: worked-with-slider 20s linear alternate infinite;
+}
+
+@keyframes worked-with-slider {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
 }

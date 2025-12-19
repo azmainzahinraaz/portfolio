@@ -253,3 +253,25 @@ export const languageData: LanguageType[] = [
     proficiency: "Conversational",
   },
 ];
+
+export const aboutSwiperData: {
+  logoUrl: string;
+  platform: string;
+  text: string;
+}[] = [
+  {
+    logoUrl: "/images/icons/google.png",
+    platform: "Google",
+    text: "Verified as Filmmaker",
+  },
+  {
+    logoUrl: "/images/icons/youtube.png",
+    platform: "YouTube",
+    text: "Recognized as Artist",
+  },
+  {
+    logoUrl: "/images/icons/spotify.png",
+    platform: "Spotify",
+    text: "Featured as Musician",
+  },
+];
