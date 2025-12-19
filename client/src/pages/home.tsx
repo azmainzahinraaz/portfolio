@@ -1,3 +1,4 @@
+import AboutSection from "@/components/home-components/about-components/about-section";
 import Features from "@/components/home-components/features-components/features";
 import Hero from "@/components/home-components/hero-components/hero";
 import Press from "@/components/home-components/press-components/press";
@@ -12,6 +13,7 @@ export default function Home(): ReactNode {
       <Hero />
       <Press />
       <Features />
+      <AboutSection />
     </main>
   );
 }

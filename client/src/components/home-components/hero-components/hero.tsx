@@ -10,12 +10,13 @@ export default function Hero(): ReactNode {
           "linear-gradient(to right,rgba(110,110,110,.4) 40%,transparent),url(hero-bg.jpg) no-repeat center",
         backgroundAttachment: "fixed",
         backgroundPosition: "center",
+        backgroundSize: "cover",
       }}
     >
       <div className="w-full max-w-[min(1600px,92vw)] h-fit flex justify-between items-center gap-20 max-lg:flex-col">
         <HeroLeft />
         <iframe
-          src="https://www.youtube.com/embed/Q1ro4L_htLw?si=OpPQHae5JT_FWFF6"
+          src="https://www.youtube.com/embed/Q1ro4L_htLw?si=e4JbXvYaKTZyv40u"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           referrerPolicy="strict-origin-when-cross-origin"
           className="w-[85%] max-lg:max-w-[90vw] max-lg:w-full min-w-125 max-lg:min-w-0 aspect-video rounded-lg shadow-lg"

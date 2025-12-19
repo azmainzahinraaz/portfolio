@@ -1,4 +1,4 @@
-import { personalInfo } from "@/services/website-data";
+import { personalInfo } from "@/services/data/website-data";
 import type { ReactNode } from "react";
 
 export default function AboutRight(): ReactNode {

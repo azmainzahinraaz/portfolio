@@ -1,4 +1,4 @@
-import { featureData } from "@/services/website-data";
+import { featureData } from "@/services/data/website-data";
 import type { ReactNode } from "react";
 
 export default function FeaturesTop(): ReactNode {

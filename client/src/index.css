@@ -10,6 +10,7 @@
   --gray: #aaa;
   --dark-gray: #454546;
   --blue-gray: #212529;
+  --light-gray: #b1b1b1;
 
   --blue: #0d6efd;
   --dark-blue: #0b5ed7;
@@ -26,6 +27,7 @@
   --color-gray: var(--gray);
   --color-dark-gray: var(--dark-gray);
   --color-blue-gray: var(--blue-gray);
+  --color-light-gray: var(--light-gray);
 
   --color-blue: var(--blue);
   --color-dark-blue: var(--dark-blue);

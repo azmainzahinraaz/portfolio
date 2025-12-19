@@ -1,7 +1,7 @@
 import AboutHero from "@/components/about-components/about-hero/about-hero";
 import SocialLinks from "@/components/about-components/social-links";
 import Testimonials from "@/components/about-components/testimonial/testimonials";
-import { testimonialData } from "@/services/website-data";
+import { testimonialData } from "@/services/data/website-data";
 import { useEffect, type ReactNode } from "react";
 
 export default function About(): ReactNode {

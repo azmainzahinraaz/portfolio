@@ -1,5 +1,5 @@
 import BlockText from "@/components/ui/block-text";
-import { pressData } from "@/services/website-data";
+import { pressData } from "@/services/data/website-data";
 import { useState, type ReactNode } from "react";
 import PressCard from "./press-card";
 import PrimaryBtn from "@/components/ui/primary-btn";

@@ -1,4 +1,4 @@
-import { socialLinks } from "@/services/website-data";
+import { socialLinks } from "@/services/data/website-data";
 import type { ReactNode } from "react";
 import BlockText from "../ui/block-text";
 

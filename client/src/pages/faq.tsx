@@ -1,5 +1,5 @@
 import FaqItem from "@/components/ui/faq-item";
-import { faqData } from "@/services/website-data";
+import { faqData } from "@/services/data/website-data";
 import type { FaqType } from "@/types/global-types";
 import { type ReactNode } from "react";
 

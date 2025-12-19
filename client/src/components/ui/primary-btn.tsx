@@ -9,6 +9,7 @@ type PrimaryBtnProps = {
   className?: string;
   isLink?: boolean;
   href?: string;
+  target?: "_blank" | "_self" | "_parent" | "_top";
   type?: "button" | "submit" | "reset";
 };
 
@@ -18,6 +19,7 @@ export default function PrimaryBtn({
   className,
   isLink = false,
   href,
+  target = "_self",
   type = "button",
 }: PrimaryBtnProps): ReactNode {
   const classname: string =
@@ -26,7 +28,7 @@ export default function PrimaryBtn({
 
   if (isLink && href) {
     return (
-      <Link to={href} className={classname} onClick={onClick}>
+      <Link to={href} className={classname} onClick={onClick} target={target}>
         {children}
       </Link>
     );

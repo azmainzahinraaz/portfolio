@@ -1,4 +1,4 @@
-import { navLinks } from "@/services/website-data";
+import { navLinks } from "@/services/data/website-data";
 import { Activity, useState, type ReactNode } from "react";
 import { HiOutlineMenu } from "react-icons/hi";
 import { RxCross2 } from "react-icons/rx";
