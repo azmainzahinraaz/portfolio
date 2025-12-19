@@ -1,8 +1,8 @@
 import { useEffect, type ReactNode } from "react";
 import { Outlet } from "react-router";
 import Navbar from "./navbar";
-import Footer from "./footer";
 import Lenis from "lenis";
+import Footer from "./footer/footer";
 
 export default function UserLayout(): ReactNode {
   // Initialize Lenis

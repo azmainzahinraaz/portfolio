@@ -159,6 +159,12 @@ export const socialLinks: { platform: string; icon: ReactNode; url: string }[] =
     },
   ];
 
+export const contactLinkItems = [
+  { platform: "Email", url: "rakeshkarmaker0175@gmail.com", isLink: true },
+  { platform: "Phone", url: "+880123-456-7890", isLink: true },
+  { platform: "Address", url: "Mirpur, Dhaka-1216, Bangladesh", isLink: false },
+];
+
 export const faqData: FaqType[] = [
   {
     question: "What services do you offer?",
