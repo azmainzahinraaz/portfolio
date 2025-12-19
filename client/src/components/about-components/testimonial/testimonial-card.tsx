@@ -54,6 +54,7 @@ export default function TestimonialCard({
         aria-labelledby="modal-modal-title"
         aria-describedby="modal-modal-description"
         className="w-full h-full flex justify-center items-center"
+        onWheel={(e) => e.stopPropagation()}
       >
         <div className="w-full max-w-112.5 h-fit max-h-[90vh] overflow-y-auto rounded-md bg-secondary-bg-color">
           <div className="w-full h-full flex flex-col">

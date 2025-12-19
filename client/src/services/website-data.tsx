@@ -1,4 +1,4 @@
-import type { FaqType, TestimonialType } from "@/types/global-types";
+import type { FaqType, PressType, TestimonialType } from "@/types/global-types";
 import type { ReactNode } from "react";
 import {
   FaFacebook,
@@ -216,5 +216,38 @@ export const faqData: FaqType[] = [
     question: "What is your preferred method of communication?",
     answer:
       "I am flexible with communication methods, including email, video calls, and instant messaging, depending on your preference.",
+  },
+];
+
+export const pressData: PressType[] = [
+  {
+    date: "May 19, 2025",
+    imageUrl: "",
+    link: "",
+    title:
+      "DhakaTribune: From quiet in classrooms to creative triumphs - the story of Saad Al Amin",
+  },
+  {
+    date: "07 May 2025",
+    imageUrl:
+      "https://firebasestorage.googleapis.com/v0/b/saadalamindev.appspot.com/o/posts%2Fpress%2F45.jpg?alt=media&token=ebb4bc55-b4bd-458e-90ed-50b0badcf48e",
+    link: "https://thedailycampus.com/success-story/181765/",
+    title:
+      "The Daily Campus: ৩ কোটি টাকার স্কলারশিপে যুক্তরাষ্ট্র পড়তে যাচ্ছেন তা’মীরুল মিল্লাতের সাদ ",
+  },
+  {
+    date: "07 May 2025",
+    imageUrl:
+      "https://firebasestorage.googleapis.com/v0/b/saadalamindev.appspot.com/o/posts%2Fpress%2Fsaad-al-amin.webp?alt=media&token=07c199de-68e2-4e61-a21d-cbc2cbd8d8c5",
+    link: "https://bongowiki.com/saad-secures-scholarship-usa/",
+    title:
+      "Madrasa Student Saad Secures BDT 3 Crore Scholarship to Study in USA",
+  },
+  {
+    date: "07 May 2025",
+    iframe:
+      '<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Finsightstodayy%2Fposts%2Fpfbid02cAHsyMqiheppHYTWizct9hFVm3KJhw114CsrLdg3kAVqPHx3K6J2z6dSLCPueTVal&width=560&show_text=false&appId=992880515259603&height=314" width="560" height="314" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="web-share"></iframe>',
+    title:
+      "From Madrasah to USA: Saad Secures 3 Crore Scholarship to Study at Knox College",
   },
 ];

@@ -40,6 +40,7 @@
 
 body {
   background-color: var(--primary-bg-color);
+  overflow-x: hidden;
 }
 
 @media screen and (max-width: 1800px) {
@@ -90,4 +91,8 @@ body {
   100% {
     stroke-dashoffset: -125px;
   }
+}
+
+.press-iframe iframe {
+  width: -webkit-fill-available !important;
 }

@@ -25,7 +25,7 @@ export default function HeroLeft(): ReactNode {
         <PrimaryBtn
           isLink={true}
           href="/about"
-          className="text-lg px-4 max-sm:px-3 max-sm:text-base"
+          className="text-lg px-6 max-sm:px-3 max-sm:text-base"
         >
           Learn More
         </PrimaryBtn>
