@@ -7,6 +7,7 @@ interface Config {
   mongoUrl: string;
   clientUrl: string;
   serverUrl: string;
+  jwtSecret: string;
 }
 
 const config: Config = {
@@ -15,6 +16,7 @@ const config: Config = {
   mongoUrl: process.env.MONGO_URL || "",
   clientUrl: process.env.CLIENT_URL || "",
   serverUrl: process.env.SERVER_URL || "",
+  jwtSecret: process.env.JWT_SECRET || "defaultsecret",
 };
 
 export default config;
