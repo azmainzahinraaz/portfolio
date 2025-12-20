@@ -14,7 +14,7 @@ export default function Press(): ReactNode {
     <>
       <section className="w-full max-w-max-width py-10 flex flex-col gap-10 bg-primary-bg-color">
         <div className="w-full flex flex-wrap gap-10 justify-between items-center z-99">
-          <BlockText className="ml-7">Press Release</BlockText>
+          <BlockText className="ml-5">Press Release</BlockText>
           <PrimaryBtn
             className="text-base px-6 flex items-center gap-2"
             onClick={() => setIsMoreVisible(true)}

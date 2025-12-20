@@ -1,7 +1,11 @@
 import PrimaryBtn from "@/components/ui/primary-btn";
-import type { ReactNode } from "react";
+import { useEffect, type ReactNode } from "react";
 
 export default function PageNotFound(): ReactNode {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <section className="w-screen h-full min-h-[calc(100vh-4.75rem)] flex justify-center items-center bg-primary-bg-color">
       <div className="w-full max-w-max-width flex flex-col gap-6 z-99 items-center">
@@ -13,7 +17,7 @@ export default function PageNotFound(): ReactNode {
             <h1 className="text-6xl font-bold max-sm:text-4xl text-white">
               Oops! Page Not Found
             </h1>
-            <p className="max-w-[40ch] text-lg text-white/70 max-sm:text-base">
+            <p className="max-w-[45ch] text-lg text-white/70 max-sm:text-base">
               The page you are looking for does not exist. Click the button
               below to return to the homepage.
             </p>

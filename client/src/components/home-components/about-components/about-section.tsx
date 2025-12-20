@@ -87,7 +87,7 @@ export default function AboutSection(): ReactNode {
           ))}
         </div>
         <div className="w-full h-full flex flex-col gap-10">
-          <BlockText className="ml-7">{capitalize(selectedTab)}</BlockText>
+          <BlockText className="ml-5">{capitalize(selectedTab)}</BlockText>
           <div className="w-full h-full py-7.5 px-10 bg-secondary-bg-color/30 rounded-md shadow-[0px_0px_6px_1px_rgba(0,0,0,0.1)]">
             {selectedTab ? tabs[selectedTab] : null}
           </div>

@@ -6,6 +6,7 @@ import About from "@/pages/about";
 import Faq from "@/pages/faq";
 import PageNotFound from "@/pages/page-not-found";
 import Home from "@/pages/home";
+import Works from "@/pages/works";
 
 export const router = createBrowserRouter([
   {
@@ -21,6 +22,10 @@ export const router = createBrowserRouter([
         element: <About />,
       },
       {
+        path: "/works",
+        element: <Works />,
+      },
+      {
         path: "/contents",
         element: <Contents />,
       },
@@ -30,7 +35,7 @@ export const router = createBrowserRouter([
       },
       {
         path: "/faq",
-        element: <Faq />,
+        element: <Faq isHomePage={false} />,
       },
       {
         path: "*",
