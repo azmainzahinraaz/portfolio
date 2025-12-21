@@ -65,14 +65,6 @@ export async function replyToDiscussion(
     const { id } = req.params;
     const { replierName, replyText, replyTime, token } = req.body;
 
-    console.log("Reply request received:", {
-      id,
-      replierName,
-      replyText,
-      replyTime,
-      token,
-    });
-
     // validate the request
     if (!id || !replierName || !replyText || !replyTime) {
       res.status(400).json({ message: "All fields are required" });

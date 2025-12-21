@@ -25,7 +25,7 @@ export default function FeaturedDiscussions({
             <p className="text-sm text-gray-300">No featured discussions.</p>
           ) : (
             <ul className="flex flex-col gap-4">
-              {discussionData.slice(0, 5).map((discussion) => (
+              {discussionData.map((discussion) => (
                 <li
                   key={discussion._id}
                   className="w-full border-b border-dark-gray/60 last:border-b-0 pb-4"

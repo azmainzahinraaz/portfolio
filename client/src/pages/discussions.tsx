@@ -11,6 +11,9 @@ import "@/index.css";
 export default function Discussions(): ReactNode {
   const [title, setTitle] = useState<string>("");
   const [sortBy, setSortBy] = useState<"latest" | "oldest">("latest");
+  const [featuredDiscussions, setFeaturedDiscussions] = useState<
+    DiscussionsResponseType[]
+  >([]);
 
   const {
     data: discussionsData,
@@ -20,6 +23,17 @@ export default function Discussions(): ReactNode {
     queryFn: () => getDiscussions({ title, shortBy: sortBy }),
     queryKey: ["discussions", title, sortBy],
   });
+
+  useEffect(() => {
+    if (
+      discussionsData?.data.discussions &&
+      discussionsData.data.discussions.length > 0 &&
+      featuredDiscussions.length === 0
+    ) {
+      const featured = discussionsData.data.discussions.slice(0, 5);
+      setFeaturedDiscussions(featured);
+    }
+  }, [discussionsData]);
 
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -44,7 +58,10 @@ export default function Discussions(): ReactNode {
           />
           <DiscussionList discussionData={data} isLoading={isLoading} />
         </div>
-        <FeaturedDiscussions discussionData={data} isLoading={isLoading} />
+        <FeaturedDiscussions
+          discussionData={featuredDiscussions}
+          isLoading={isLoading && featuredDiscussions.length === 0}
+        />
       </div>
     </main>
   );

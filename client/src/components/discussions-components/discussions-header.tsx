@@ -7,7 +7,7 @@ import {
   Select,
   TextField,
 } from "@mui/material";
-import { FaChevronDown, FaSearch } from "react-icons/fa";
+import { FaSearch } from "react-icons/fa";
 
 type DiscussionsHeaderProps = {
   title: string;
@@ -58,7 +58,6 @@ export default function DiscussionsHeader({
                 <MenuItem value="oldest">Oldest</MenuItem>
               </Select>
             </FormControl>
-            <FaChevronDown className="absolute right-3 text-white group-focus-within:text-gray transition-all duration-200" />
           </div>
         </div>
       </header>
