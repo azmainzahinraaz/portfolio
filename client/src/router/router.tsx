@@ -7,6 +7,7 @@ import Faq from "@/pages/faq";
 import PageNotFound from "@/pages/page-not-found";
 import Home from "@/pages/home";
 import Works from "@/pages/works";
+import Discussions from "@/pages/discussions";
 
 export const router = createBrowserRouter([
   {
@@ -28,6 +29,10 @@ export const router = createBrowserRouter([
       {
         path: "/contents",
         element: <Contents />,
+      },
+      {
+        path: "/discuss",
+        element: <Discussions />,
       },
       {
         path: "/blog",

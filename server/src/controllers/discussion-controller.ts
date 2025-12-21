@@ -8,13 +8,13 @@ export async function getAllDiscussions(
   res: Response
 ): Promise<void> {
   try {
-    const { title } = req.query;
+    const { title, shortBy } = req.query;
 
     // fetch all discussions from the database
     const discussions = await discussion
       .find(title ? { title: { $regex: title, $options: "i" } } : {})
-      .sort({ createdAt: -1 })
-      .select("title description name time hasAdminReplied");
+      .sort({ createdAt: shortBy === "oldest" ? 1 : -1 })
+      .select("_id title message name time hasAdminReplied");
 
     res.status(200).json({ discussions });
   } catch (err) {
@@ -147,10 +147,10 @@ export async function createDiscussion(
   res: Response
 ): Promise<void> {
   try {
-    const { name, email, title, description, time } = req.body;
+    const { name, email, title, message, time } = req.body;
 
     // validate the request
-    if (!name || !email || !title || !description || !time) {
+    if (!name || !email || !title || !message || !time) {
       res.status(400).json({ message: "All fields are required" });
       return;
     }
@@ -160,7 +160,7 @@ export async function createDiscussion(
       name,
       email,
       title,
-      description,
+      message,
       time,
     });
 

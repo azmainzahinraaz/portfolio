@@ -3,6 +3,7 @@ import { Outlet } from "react-router";
 import Navbar from "./navbar";
 import Lenis from "lenis";
 import Footer from "./footer/footer";
+import { Toaster } from "react-hot-toast";
 
 export default function UserLayout(): ReactNode {
   // Initialize Lenis
@@ -19,6 +20,7 @@ export default function UserLayout(): ReactNode {
       <Navbar />
       <Outlet />
       <Footer />
+      <Toaster position="top-right" />
     </>
   );
 }

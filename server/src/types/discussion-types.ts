@@ -10,7 +10,7 @@ export type DiscussionSchemaType = {
   name: string;
   email: string;
   title: string;
-  description: string;
+  message: string;
   time: string;
   replies: ReplyType[];
   hasAdminReplied: boolean;

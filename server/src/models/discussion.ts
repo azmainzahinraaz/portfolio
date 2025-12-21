@@ -13,7 +13,7 @@ const discussionSchema = new Schema<DiscussionSchemaType>(
     name: { type: String, required: true },
     email: { type: String, required: true },
     title: { type: String, required: true },
-    description: { type: String, required: true },
+    message: { type: String, required: true },
     time: { type: String, required: true },
     replies: { type: [replySchema], default: [] },
     hasAdminReplied: { type: Boolean, default: false },

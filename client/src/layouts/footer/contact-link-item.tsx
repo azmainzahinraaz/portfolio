@@ -21,7 +21,7 @@ export default function ContactLinkItem({
           {url}
         </a>
       ) : (
-        <pre className="text-lg text-white">{url}</pre>
+        <p className="text-lg text-white">{url}</p>
       )}
     </div>
   );

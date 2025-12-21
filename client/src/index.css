@@ -16,6 +16,7 @@
   --dark-blue: #0b5ed7;
 
   --black: #111111;
+  --white: #ffffff;
 
   --orange: #ff7f00;
   --red: #e92f2f;
@@ -114,4 +115,27 @@ body {
   100% {
     transform: translateX(-100%);
   }
+}
+
+.css-1blp12k-MuiInputBase-root-MuiOutlinedInput-root,
+.css-zsp0bh-MuiInputBase-root-MuiOutlinedInput-root,
+.css-sc8y68-MuiInputBase-root-MuiOutlinedInput-root-MuiSelect-root {
+  color: var(--white) !important;
+  background-color: var(--secondary-bg-color) !important;
+}
+
+.css-19qnlrw-MuiFormLabel-root-MuiInputLabel-root {
+  color: var(--light-gray) !important;
+}
+
+.css-113d811-MuiFormLabel-root-MuiInputLabel-root {
+  color: var(--light-gray) !important;
+}
+
+.css-113d811-MuiFormLabel-root-MuiInputLabel-root.Mui-focused {
+  color: var(--white) !important;
+}
+
+.css-18p5xg2-MuiNotchedOutlined-root-MuiOutlinedInput-notchedOutline {
+  border-color: var(--dark-gray) !important;
 }
