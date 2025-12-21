@@ -6,6 +6,8 @@ import toast from "react-hot-toast";
 import { useMutation } from "react-query";
 import { useNavigate } from "react-router";
 
+import "@/index.css";
+
 export default function Admin(): ReactNode {
   const navigate = useNavigate();
 

@@ -6,6 +6,8 @@ import type { DiscussionsResponseType } from "@/types/discussion-types";
 import { useEffect, useState, type ReactNode } from "react";
 import { useQuery } from "react-query";
 
+import "@/index.css";
+
 export default function Discussions(): ReactNode {
   const [title, setTitle] = useState<string>("");
   const [sortBy, setSortBy] = useState<"latest" | "oldest">("latest");

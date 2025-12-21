@@ -8,6 +8,8 @@ import type { ReactNode } from "react";
 import { useQuery } from "react-query";
 import { useParams } from "react-router";
 
+import "@/index.css";
+
 export default function Discussion(): ReactNode {
   const discussionId = useParams().discussionId || "";
 
