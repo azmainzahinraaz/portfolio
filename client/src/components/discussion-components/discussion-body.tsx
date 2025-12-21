@@ -1,7 +1,4 @@
-import type {
-  DiscussionResponseType,
-  ReplyType,
-} from "@/types/discussion-types";
+import type { DiscussionResponseType } from "@/types/discussion-types";
 import type { ReactNode } from "react";
 import Replies from "./replies";
 

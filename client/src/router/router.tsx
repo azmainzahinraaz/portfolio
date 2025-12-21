@@ -9,6 +9,7 @@ import Home from "@/pages/home";
 import Works from "@/pages/works";
 import Discussions from "@/pages/discussions";
 import Discussion from "@/pages/discussion";
+import Admin from "@/pages/admin";
 
 export const router = createBrowserRouter([
   {
@@ -47,6 +48,10 @@ export const router = createBrowserRouter([
       {
         path: "/faq",
         element: <Faq isHomePage={false} />,
+      },
+      {
+        path: "/admin",
+        element: <Admin />,
       },
       {
         path: "*",
