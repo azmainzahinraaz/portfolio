@@ -134,7 +134,7 @@ function ReplyCard({
   });
 
   return (
-    <div className="w-full h-full p-6 py-8 flex gap-5 border-b border-dark-gray">
+    <div className="w-full h-full p-6 py-8 flex max-sm:flex-col gap-5 border-b border-dark-gray">
       {reply.isAdmin ? (
         <img
           src="/pfp-2.png"
@@ -142,7 +142,7 @@ function ReplyCard({
           className="w-12.5 h-12.5 rounded-full object-center object-cover border-3 border-white"
         />
       ) : (
-        <IoPersonCircleOutline className="text-[5rem] -ml-1.25 -mt-4.25 text-white/80" />
+        <IoPersonCircleOutline className="min-w-15 min-h-15 -ml-1.25 -mt-2.25 text-white/80" />
       )}
       <div
         className="w-full h-full flex flex-col gap-2"
@@ -179,7 +179,7 @@ function ReplyCard({
           </p>
         )}
       </div>
-      <div className="min-w-30 flex justify-end">
+      <div className="min-w-30 flex justify-end max-sm:justify-start">
         {reply.isAdmin || token ? (
           token ? (
             <div className="flex gap-2">
