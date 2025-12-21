@@ -119,7 +119,9 @@ body {
 
 .css-1blp12k-MuiInputBase-root-MuiOutlinedInput-root,
 .css-zsp0bh-MuiInputBase-root-MuiOutlinedInput-root,
-.css-sc8y68-MuiInputBase-root-MuiOutlinedInput-root-MuiSelect-root {
+.css-sc8y68-MuiInputBase-root-MuiOutlinedInput-root-MuiSelect-root,
+.css-xrmkj5-MuiInputBase-root-MuiOutlinedInput-root,
+.css-quhxjy-MuiInputBase-root-MuiOutlinedInput-root {
   color: var(--white) !important;
   background-color: var(--secondary-bg-color) !important;
 }

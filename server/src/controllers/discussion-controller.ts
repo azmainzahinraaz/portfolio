@@ -65,6 +65,14 @@ export async function replyToDiscussion(
     const { id } = req.params;
     const { replierName, replyText, replyTime, token } = req.body;
 
+    console.log("Reply request received:", {
+      id,
+      replierName,
+      replyText,
+      replyTime,
+      token,
+    });
+
     // validate the request
     if (!id || !replierName || !replyText || !replyTime) {
       res.status(400).json({ message: "All fields are required" });
@@ -82,12 +90,19 @@ export async function replyToDiscussion(
     const isAdmin = await verifyAdmin(token);
     reply.isAdmin = isAdmin;
 
+    // get the previous discussion
+    const existingDiscussion = await discussion.findById(id);
+
     // update the discussion with the new reply
     const updatedDiscussion = await discussion.findByIdAndUpdate(
       id,
       {
         $push: { replies: reply },
-        $set: { hasAdminReplied: reply.isAdmin ? true : false },
+        $set: {
+          hasAdminReplied: reply.isAdmin
+            ? true
+            : existingDiscussion?.hasAdminReplied || false,
+        },
       },
       { new: true }
     );

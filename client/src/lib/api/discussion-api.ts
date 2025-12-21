@@ -49,7 +49,7 @@ export async function replyToDiscussion(
   const date = dayjs().format();
   const data = await api.put(`/discussions/${id}/reply`, {
     ...replyPayload,
-    time: date,
+    replyTime: date,
     token: jwtToken,
   });
   return data;

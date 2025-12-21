@@ -24,7 +24,7 @@ export default function DiscussionsHeader({
 }: DiscussionsHeaderProps): ReactNode {
   return (
     <>
-      <section className="w-full h-full p-6 py-8 flex flex-col gap-7 border-b border-dark-gray">
+      <header className="w-full h-full p-6 py-8 flex flex-col gap-7 border-b border-dark-gray">
         <div className="w-full flex max-sm:flex-col justify-between items-center gap-10 max-sm:gap-6 max-sm:items-start">
           <h1 className="font-serif font-semibold text-3xl text-white">
             Q&A Discussions
@@ -61,7 +61,7 @@ export default function DiscussionsHeader({
             <FaChevronDown className="absolute right-3 text-white group-focus-within:text-gray transition-all duration-200" />
           </div>
         </div>
-      </section>
+      </header>
     </>
   );
 }

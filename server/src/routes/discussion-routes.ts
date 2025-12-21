@@ -16,6 +16,6 @@ discussRouter.post("/", createDiscussion);
 discussRouter.delete("/:id", deleteDiscussion);
 
 discussRouter.put("/:id/reply", replyToDiscussion);
-discussRouter.delete("/:id/reply/:replyId", deleteReply);
+discussRouter.delete("/:discussionId/reply/:replyId", deleteReply);
 
 export default discussRouter;

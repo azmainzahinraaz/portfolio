@@ -8,6 +8,7 @@ import PageNotFound from "@/pages/page-not-found";
 import Home from "@/pages/home";
 import Works from "@/pages/works";
 import Discussions from "@/pages/discussions";
+import Discussion from "@/pages/discussion";
 
 export const router = createBrowserRouter([
   {
@@ -33,6 +34,11 @@ export const router = createBrowserRouter([
       {
         path: "/discuss",
         element: <Discussions />,
+      },
+      {
+        path: "/discussion/:discussionId",
+        element: <Discussion />,
+        errorElement: <PageNotFound />,
       },
       {
         path: "/blog",

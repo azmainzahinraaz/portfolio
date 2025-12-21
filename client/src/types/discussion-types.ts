@@ -18,3 +18,25 @@ export type DiscussionsResponseType = {
   time: string;
   hasAdminReplied: boolean;
 };
+
+export type ReplyType = {
+  _id: string;
+  replierName: string;
+  replyText: string;
+  replyTime: string;
+  isAdmin: boolean;
+};
+
+export type DiscussionResponseType = {
+  _id: string;
+  name: string;
+  email: string;
+  title: string;
+  message: string;
+  time: string;
+  replies: ReplyType[];
+  hasAdminReplied: boolean;
+  isSuggested: boolean;
+  createdAt: string;
+  updatedAt: string;
+};
