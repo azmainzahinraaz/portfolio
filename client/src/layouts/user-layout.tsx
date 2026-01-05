@@ -1,8 +1,8 @@
 import { useEffect, type ReactNode } from "react";
 import { Outlet } from "react-router";
-import Navbar from "./navbar";
+// import Navbar from "./navbar";
 import Lenis from "lenis";
-import Footer from "./footer/footer";
+// import Footer from "./footer/footer";
 import { Toaster } from "react-hot-toast";
 
 export default function UserLayout(): ReactNode {
@@ -17,9 +17,9 @@ export default function UserLayout(): ReactNode {
 
   return (
     <>
-      <Navbar />
+      {/* <Navbar /> */}
       <Outlet />
-      <Footer />
+      {/* <Footer /> */}
       <Toaster position="top-right" />
     </>
   );
