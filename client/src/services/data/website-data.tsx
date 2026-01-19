@@ -244,10 +244,9 @@ export const pressData: PressType[] = [
   {
     date: "07 May 2025",
     imageUrl:
-      "https://firebasestorage.googleapis.com/v0/b/saadalamindev.appspot.com/o/posts%2Fpress%2F45.jpg?alt=media&token=ebb4bc55-b4bd-458e-90ed-50b0badcf48e",
-    link: "https://thedailycampus.com/success-story/181765/",
-    title:
-      "The Daily Campus: ৩ কোটি টাকার স্কলারশিপে যুক্তরাষ্ট্র পড়তে যাচ্ছেন তা’মীরুল মিল্লাতের সাদ ",
+      "https://boishakhionline.com/assets/news_photos/2026/01/14/image-156584-1768402039.jpg",
+    link: "https://boishakhionline.com/education/156584",
+    title: "অলিম্পিয়াডে আজমাইন জাহিন রাজের সিলভার জয়",
   },
   {
     date: "07 May 2025",

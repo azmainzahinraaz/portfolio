@@ -7,7 +7,7 @@ export default function Blog(): ReactNode {
 
   return (
     <iframe
-      src="https://saadalamin.blogspot.com/"
+      src="https://boishakhionline.com/education/156584"
       className="block w-full h-[calc(100vh-4.75rem)]"
     ></iframe>
   );
