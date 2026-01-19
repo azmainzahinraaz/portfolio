@@ -9,6 +9,7 @@ import { useQuery } from "react-query";
 import { useParams } from "react-router";
 
 import "@/index.css";
+import { Helmet } from "react-helmet-async";
 
 export default function Discussion(): ReactNode {
   const discussionId = useParams().discussionId || "";
@@ -37,17 +38,23 @@ export default function Discussion(): ReactNode {
   const discussion: DiscussionResponseType = data?.data.discussion;
 
   return (
-    <main className="w-full h-full flex justify-center pb-10 items-center">
-      <div className="w-full h-full max-w-small-max-width border-l border-dark-gray flex max-[850px]:flex-col gap-5">
-        <div className="w-full h-full flex flex-col">
-          <DiscussionHeader title={discussion.title} />
-          <DiscussionBody
-            discussionData={discussion}
-            discussionId={discussionId}
-          />
+    <>
+      <Helmet>
+        <title>Azmain Zahin Raaz - {discussion.title}</title>
+      </Helmet>
+
+      <main className="w-full h-full flex justify-center pb-10 items-center">
+        <div className="w-full h-full max-w-small-max-width border-l border-dark-gray flex max-[850px]:flex-col gap-5">
+          <div className="w-full h-full flex flex-col">
+            <DiscussionHeader title={discussion.title} />
+            <DiscussionBody
+              discussionData={discussion}
+              discussionId={discussionId}
+            />
+          </div>
+          <Information name={discussion.name} time={discussion.time} />
         </div>
-        <Information name={discussion.name} time={discussion.time} />
-      </div>
-    </main>
+      </main>
+    </>
   );
 }

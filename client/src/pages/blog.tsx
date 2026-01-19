@@ -1,4 +1,5 @@
 import { useEffect, type ReactNode } from "react";
+import { Helmet } from "react-helmet-async";
 
 export default function Blog(): ReactNode {
   useEffect(() => {
@@ -6,9 +7,15 @@ export default function Blog(): ReactNode {
   }, []);
 
   return (
-    <iframe
-      src="https://boishakhionline.com/education/156584"
-      className="block w-full h-[calc(100vh-4.75rem)]"
-    ></iframe>
+    <>
+      <Helmet>
+        <title>Azmain Zahin Raaz - Blog</title>
+      </Helmet>
+
+      <iframe
+        src="https://boishakhionline.com/education/156584"
+        className="block w-full h-[calc(100vh-4.75rem)]"
+      ></iframe>
+    </>
   );
 }
