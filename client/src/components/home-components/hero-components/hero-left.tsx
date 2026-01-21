@@ -19,9 +19,9 @@ export default function HeroLeft(): ReactNode {
           </div>
         </div>
         <p className="text-white text-[1.22rem] max-sm:text-base mt-3">
-          Saad Al Amin is a Bangladeshi artist, filmmaker and graphics designer
-          born in Bangladesh. He is now working as a leading personality in tons
-          of activities.
+          Azmain Zahin Raaz is a Bangladeshi artist, filmmaker and graphics
+          designer born in Bangladesh. He is now working as a leading
+          personality in tons of activities.
         </p>
         <div className="w-full flex gap-6 items-center z-99">
           <PrimaryBtn

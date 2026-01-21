@@ -11,28 +11,19 @@ export const blogs: BlogType[] = [
   {
     _id: "1",
     imageUrl:
-      "https://boishakhionline.com/assets/news_photos/2026/01/14/image-156584-1768402039.jpg",
-    date: "January 14, 2026",
-    publisher: "Boishakhi Online",
-    title: "Azmain Zahin Raaz Wins Silver in Olympiad",
-    link: "https://boishakhionline.com/education/156584",
+      "https://miro.medium.com/v2/resize:fit:4800/format:webp/1*5t1hWGbo0QrogrGkHGHTJg.png",
+    date: "December 23, 2025",
+    publisher: "Medium",
+    title: "A Balcony in Bloom: My Family’s Garden of Love",
+    link: "https://medium.com/@azmainzahinraaz/a-balcony-in-bloom-my-familys-garden-of-love-c721200f46fa",
   },
   {
     _id: "2",
     imageUrl:
-      "https://boishakhionline.com/assets/news_photos/2026/01/14/image-156584-1768402039.jpg",
-    date: "January 14, 2026",
-    publisher: "Boishakhi Online",
-    title: "Azmain Zahin Raaz Wins Silver in Olympiad",
-    link: "https://boishakhionline.com/education/156584",
-  },
-  {
-    _id: "3",
-    imageUrl:
-      "https://boishakhionline.com/assets/news_photos/2026/01/14/image-156584-1768402039.jpg",
-    date: "January 14, 2026",
-    publisher: "Boishakhi Online",
-    title: "Azmain Zahin Raaz Wins Silver in Olympiad",
-    link: "https://boishakhionline.com/education/156584",
+      "https://miro.medium.com/v2/resize:fit:4800/format:webp/1*2FUjITGz2dfWzrN-ncQAlg.png",
+    date: "October 30, 2025",
+    publisher: "Medium",
+    title: "The Power of Positive Influence",
+    link: "https://medium.com/@azmainzahinraaz/the-power-of-positive-influence-751b1f76ba8b",
   },
 ];

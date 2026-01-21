@@ -3,7 +3,7 @@ import type { ReactNode } from "react";
 
 export default function AboutRight(): ReactNode {
   return (
-    <div className="w-1/3 max-lg:w-full min-w-105 max-lg:min-w-0 max-w-full h-fit border-2 border-orange p-4 rounded-md flex flex-col gap-8">
+    <div className="w-1/3 max-lg:w-full min-w-105 max-lg:min-w-0 max-w-full h-fit border-2 border-red p-4 rounded-md flex flex-col gap-8">
       <img
         src="/pfp-2.png"
         alt="profile"

@@ -20,7 +20,7 @@ export default function BlogCard({ blog }: BlogCardProps): ReactNode {
         <img
           src={blog.imageUrl || ""}
           alt={"Press Release Image"}
-          className="w-full h-full max-h-85 min-h-60 text-white text-center aspect-16/12 bg-secondary-bg-color flex justify-center items-center object-cover object-center rounded-md group-hover:brightness-90 group-hover:border-dashed group-hover:border-white transition-all"
+          className="w-full h-full max-h-60 min-h-60 text-white text-center aspect-video bg-secondary-bg-color flex justify-center items-center object-cover object-center rounded-md group-hover:brightness-90 group-hover:border-dashed group-hover:border-white transition-all"
         />
         <div className="w-full h-fit flex flex-col gap-2 pt-4">
           <div className="w-full flex gap-1 items-center">

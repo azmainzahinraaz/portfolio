@@ -88,19 +88,25 @@ export const skillData: SkillType[] = [
 
 export const educationData: EducationType[] = [
   {
-    logoUrl: "/images/icons/knox.jpg",
-    name: "Knox College, USA",
-    degree: "Bachelor in Film & Liberal Studies",
-    timeline: "Sep 2025 - Sep 2029",
-    institution: "https://www.knox.edu/",
+    logoUrl: "/education/contact_1761800108_2025-10-30.png",
+    name: "Lions School & College, Rangpur",
+    degree: "PSC",
+    timeline: "Jan 2025 - Sep 2029",
+    institution: "https://lscs.edu.bd/homes#/",
   },
   {
-    logoUrl: "/images/icons/tmkm.jpg",
-    name: "Tamirul Millat Kamil Madrasah",
-    degree: "SSC & HSC Level",
-    grade: "A+",
-    timeline: "2019 - 2023",
-    institution: "https://www.linkedin.com/school/tmkm-edu/",
+    logoUrl: "/education/cropped-logo-retina-1.png",
+    name: "Police Lines School and College, Rangpur",
+    degree: "JSC & SSC",
+    timeline: "Sep 2025 - Sep 2029",
+    institution: "https://www.plscr.edu.bd/",
+  },
+  {
+    logoUrl: "/education/government_science_college_logo.jpg",
+    name: "Govt. Science College, Tejgaon, Dhaka",
+    degree: "HSC",
+    timeline: "Sep 2025 - Sep 2029",
+    institution: "https://www.gsctd.edu.bd/",
   },
 ];
 

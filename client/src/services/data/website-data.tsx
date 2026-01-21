@@ -235,33 +235,48 @@ export const faqData: FaqType[] = [
 
 export const pressData: PressType[] = [
   {
-    date: "May 19, 2025",
-    imageUrl: "",
-    link: "",
-    title:
-      "DhakaTribune: From quiet in classrooms to creative triumphs - the story of Saad Al Amin",
-  },
-  {
-    date: "07 May 2025",
+    date: "May 07, 2025",
     imageUrl:
       "https://boishakhionline.com/assets/news_photos/2026/01/14/image-156584-1768402039.jpg",
     link: "https://boishakhionline.com/education/156584",
     title: "অলিম্পিয়াডে আজমাইন জাহিন রাজের সিলভার জয়",
   },
   {
-    date: "07 May 2025",
-    imageUrl:
-      "https://firebasestorage.googleapis.com/v0/b/saadalamindev.appspot.com/o/posts%2Fpress%2Fsaad-al-amin.webp?alt=media&token=07c199de-68e2-4e61-a21d-cbc2cbd8d8c5",
-    link: "https://bongowiki.com/saad-secures-scholarship-usa/",
-    title:
-      "Madrasa Student Saad Secures BDT 3 Crore Scholarship to Study in USA",
+    date: "January 17, 2026",
+    imageUrl: "/press/iaac.jpg",
+    link: "https://www.observerbd.com/news/562698#/",
+    title: "From not knowing what an Olympiad was to winning silver at IAAC",
   },
   {
-    date: "07 May 2025",
-    iframe:
-      '<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Finsightstodayy%2Fposts%2Fpfbid02cAHsyMqiheppHYTWizct9hFVm3KJhw114CsrLdg3kAVqPHx3K6J2z6dSLCPueTVal&width=560&show_text=false&appId=992880515259603&height=314" width="560" height="314" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="web-share"></iframe>',
+    date: "December 23, 2023",
+    imageUrl: "/press/gsc.jpg",
+    link: "https://www.facebook.com/share/p/1C8QcdyoMU/",
+    title: "Breaking barriers in GSCSC history!",
+  },
+  {
+    date: "August 13, 2025",
+    imageUrl: "/press/press_4.jpg",
+    link: "https://www.facebook.com/share/p/1Bqgm9rYFR/",
+    title: "সেরা ১০-এর দারুণ ক্রিয়েশনস",
+  },
+  {
+    date: "December 15, 2023",
+    imageUrl: "/press/press_3.jpg",
     title:
       "From Madrasah to USA: Saad Secures 3 Crore Scholarship to Study at Knox College",
+  },
+  {
+    date: "August 3, 2025",
+    imageUrl: "/press/press_5.jpg",
+    link: "https://www.facebook.com/share/p/16vsZR5js9/",
+    title: "Group B (Class 9–12) Winners – BEO 2025",
+  },
+  {
+    date: "October 20, 2025",
+    imageUrl: "/press/press_6.jpg",
+    link: "https://www.facebook.com/share/p/17tGVyrYJE/",
+    title:
+      "এই বছরের #YouthSkillsDay উপলক্ষে আমাদের #AI4Change ক্যাম্পেইনে আমরা দেখেছি কিভাবে তরুণরা AI ব্যবহার করে গড়তে চায় এক নতুন বাংলাদেশ।",
   },
 ];
 
