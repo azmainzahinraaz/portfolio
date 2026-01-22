@@ -10,7 +10,8 @@ export default function WorkedWith(): ReactNode {
           <div className="w-full flex gap-2.5 worked-with-slider">
             {Array.from({ length: 19 }).map((_, index) => (
               <img
-                src={`/images/companies/${index + 1}.jpg`}
+                key={index}
+                src={`/companies/${index + 1}.png`}
                 alt={`Company ${index + 1}`}
                 className="h-13 rounded-md"
               />

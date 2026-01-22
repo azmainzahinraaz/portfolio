@@ -23,10 +23,6 @@ export default function About(): ReactNode {
             title="Notable Testimonials"
             data={testimonialData.notable}
           />
-          <Testimonials
-            title="General Testimonials"
-            data={testimonialData.general}
-          />
           <SocialLinks />
         </div>
       </main>

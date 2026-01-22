@@ -13,9 +13,9 @@ export default function FeaturesBottom(): ReactNode {
         backgroundRepeat: "no-repeat",
       }}
     >
-      <FeatureBottomCard target={70} title="Audience" afterText=",000+" />
-      <FeatureBottomCard target={300} title="Team Member" afterText="+" />
+      <FeatureBottomCard target={10} title="Audience" afterText=",000+" />
       <FeatureBottomCard target={20} title="Reached" afterText="M+" />
+      <FeatureBottomCard target={200} title="Students Impacted" afterText="+" />
     </div>
   );
 }

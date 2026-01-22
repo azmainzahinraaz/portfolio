@@ -49,7 +49,7 @@ export const musicVideos: MusicVideoType[] = [
 
 export const podcasts: PodcastType[] = [
   {
-    src: "https://www.youtube.com/embed/SJPMxe_1O4Y",
+    src: "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Freel%2F301483049191241&width=560",
     title: "Saad Al Amin Podcast 1",
   },
   {
