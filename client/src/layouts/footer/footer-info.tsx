@@ -4,10 +4,10 @@ import type { ReactNode } from "react";
 
 export default function FooterInfo(): ReactNode {
   const contactLinks = {
-    facebook: "https://www.facebook.com/azmain.raaz",
-    instagram: "https://www.instagram.com/azmain.raaz/",
-    email: "raazmain@gmail.com",
-    phone: "01712345678",
+    facebook: "https://www.facebook.com/azmainzahinraaz",
+    instagram: "https://www.instagram.com/azmainzahinraaz/",
+    email: "azmainzahinraaz@gmail.com",
+    phone: "01304669894",
   };
 
   return (
@@ -18,15 +18,15 @@ export default function FooterInfo(): ReactNode {
         </h3>
         <div>
           <p className="text-[1.1em]/[145%] mb-3.75 max-sm:text-[1em]/[145%] text-white/90">
-            Saad Al Amin is a Bangladeshi artist, filmmaker and graphics
-            designer born in Bangladesh.
+            Azmain Zahin Raaz is a Bangladeshi student, graphics designer, and
+            researcher exploring technology, accessibility, and social impact.
           </p>
           <PrimaryBtn
             className="text-[1em] px-4 before:rounded-[3px] after:rounded-[3px]"
             isLink={true}
-            href={"/contact"}
+            href={"/discuss"}
           >
-            Contact Me
+            Discuss
           </PrimaryBtn>
         </div>
       </div>

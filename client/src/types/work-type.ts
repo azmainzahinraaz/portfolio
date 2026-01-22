@@ -20,6 +20,22 @@ export type TopContent = {
   title: string;
 };
 
+export type SatireType = {
+  src: string;
+  title: string;
+};
+
+export type ProjectType = {
+  imageUrl: string;
+  title: string;
+  link: string;
+};
+
+export type PersonalVideoType = {
+  src: string;
+  title: string;
+};
+
 export type MusicVideoType = {
   imageUrl: string;
   title: string;
@@ -27,11 +43,6 @@ export type MusicVideoType = {
 };
 
 export type PodcastType = {
-  src: string;
-  title: string;
-};
-
-export type ProjectType = {
   src: string;
   title: string;
 };
@@ -45,10 +56,9 @@ export type DesignType = {
 };
 
 export type SeminarType = {
-  src: string;
+  imageUrl: string;
 };
 
 export type SocialType = {
   imageUrl: string;
-  title: string;
 };

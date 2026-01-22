@@ -18,8 +18,8 @@ export default function FooterRight(): ReactNode {
       url: "works",
     },
     {
-      name: "Contents",
-      url: "contents",
+      name: "Visual",
+      url: "visual-designs",
     },
     {
       name: "Discuss",
@@ -32,10 +32,6 @@ export default function FooterRight(): ReactNode {
     {
       name: "FAQs",
       url: "faqs",
-    },
-    {
-      name: "Contact",
-      url: "contact",
     },
   ];
 

@@ -1,16 +1,23 @@
 import Documentaries from "@/components/works-components/documentaries";
-import MusicVideos from "@/components/works-components/music-videos";
 import MyWorks from "@/components/works-components/my-works";
+import PersonalProjects from "@/components/works-components/personal-projects";
 import Photos from "@/components/works-components/photos";
-import Podcasts from "@/components/works-components/podcasts";
 import Projects from "@/components/works-components/projects";
-import Seminars from "@/components/works-components/seminars";
+import SatireWorks from "@/components/works-components/satire-works";
 import TopContents from "@/components/works-components/top-contents";
-import { designs, photography, social } from "@/services/data/work-data";
+import { seminars, social } from "@/services/data/work-data";
 import type { ReactNode } from "react";
 import { Helmet } from "react-helmet-async";
 
 export default function Works(): ReactNode {
+  let dummy = [];
+  for (let i = 0; i < 68; i++) {
+    dummy.push({
+      imageUrl: `/graphics-designs/gp-${i + 1}.png`,
+    });
+  }
+
+  console.log(dummy);
   return (
     <>
       <Helmet>
@@ -31,12 +38,10 @@ export default function Works(): ReactNode {
             <MyWorks />
             <Documentaries />
             <TopContents />
-            <MusicVideos />
-            <Podcasts />
+            <PersonalProjects />
             <Projects />
-            <Photos photos={photography} title={"Photography"} />
-            <Photos photos={designs} title={"Designs"} />
-            <Seminars />
+            <SatireWorks />
+            <Photos photos={seminars} title={"Seminars"} cols={3} />
             <Photos photos={social} title={"Social"} cols={3} />
           </div>
         </div>

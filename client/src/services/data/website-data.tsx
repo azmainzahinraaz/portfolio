@@ -21,7 +21,7 @@ export const navLinks: { name: string; path: string }[] = [
   { name: "Home", path: "/" },
   { name: "About", path: "/about" },
   { name: "Works", path: "/works" },
-  { name: "Visual Design", path: "/visual-design" },
+  { name: "Visual Design", path: "/visual-designs" },
   { name: "Discuss", path: "/discuss" },
   { name: "Blog", path: "/blog" },
 ];
@@ -116,8 +116,8 @@ export const socialLinks: { platform: string; icon: ReactNode; url: string }[] =
   ];
 
 export const contactLinkItems = [
-  { platform: "Email", url: "rakeshkarmaker0175@gmail.com", isLink: true },
-  { platform: "Phone", url: "+880123-456-7890", isLink: true },
+  { platform: "Email", url: "azmainzahinraaz@gmail.com", isLink: true },
+  { platform: "Phone", url: "+880130-466-9894", isLink: true },
   { platform: "Address", url: "Mirpur, Dhaka-1216, Bangladesh", isLink: false },
 ];
 
@@ -167,8 +167,7 @@ export const faqData: FaqType[] = [
 export const pressData: PressType[] = [
   {
     date: "May 07, 2025",
-    imageUrl:
-      "https://boishakhionline.com/assets/news_photos/2026/01/14/image-156584-1768402039.jpg",
+    imageUrl: "/press/press_1.jpg",
     link: "https://boishakhionline.com/education/156584",
     title: "অলিম্পিয়াডে আজমাইন জাহিন রাজের সিলভার জয়",
   },

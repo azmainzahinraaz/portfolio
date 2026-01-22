@@ -24,7 +24,7 @@ function MyWorkCard({ workData }: { workData: MyWorkType }): ReactNode {
         className="w-full h-auto max-w-20 max-h-20 rounded-full"
       />
       <h3 className="text-white text-xl font-medium">{workData.title}</h3>
-      <div className="w-full flex justify-center gap-4 mt-4">
+      <div className="w-full flex flex-wrap justify-center gap-4 mt-4">
         {workData.links.map((link, index) => (
           <a
             href={link.url}

@@ -2,7 +2,6 @@ import { createBrowserRouter } from "react-router";
 import UserLayout from "@/layouts/user-layout";
 // import UnderDevelopment from "@/pages/under-development";
 import Blog from "@/pages/blog";
-import Contents from "@/pages/contents";
 import About from "@/pages/about";
 import Faq from "@/pages/faq";
 import PageNotFound from "@/pages/page-not-found";
@@ -11,6 +10,7 @@ import Works from "@/pages/works";
 import Discussions from "@/pages/discussions";
 import Discussion from "@/pages/discussion";
 import Admin from "@/pages/admin";
+import VisualDesigns from "../pages/visual-designs";
 
 export const router = createBrowserRouter([
   {
@@ -41,8 +41,8 @@ export const router = createBrowserRouter([
         element: <Works />,
       },
       {
-        path: "/contents",
-        element: <Contents />,
+        path: "/visual-designs",
+        element: <VisualDesigns />,
       },
       {
         path: "/discuss",

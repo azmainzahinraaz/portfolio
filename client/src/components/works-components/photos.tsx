@@ -44,7 +44,6 @@ export default function Photos({
       <ImageViewer
         data={photos.map((photo) => ({
           url: photo.imageUrl,
-          title: (photo as SocialType)?.title || "",
         }))}
         index={openIndex}
         open={imageViewerOpen}

@@ -1,7 +1,9 @@
 import type { ReactNode } from "react";
 import WorksWrapper from "./works-wrapper";
-import { projects } from "@/services/data/work-data";
 import type { ProjectType } from "@/types/work-type";
+import PrimaryBtn from "../ui/primary-btn";
+import { FaArrowRightLong } from "react-icons/fa6";
+import { projects } from "@/services/data/work-data";
 
 export default function Projects(): ReactNode {
   return (
@@ -17,15 +19,25 @@ export default function Projects(): ReactNode {
 
 function ProjectCard({ project }: { project: ProjectType }): ReactNode {
   return (
-    <div className="w-full h-full">
-      <iframe
-        src={project.src}
-        title={project.title}
-        frameBorder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        allowFullScreen
-        className="w-full h-full aspect-video"
-      ></iframe>
+    <div className="w-full h-full flex flex-col">
+      <img
+        src={project.imageUrl}
+        alt={project.title}
+        className="w-full h-hull min-h-50 object-center object-cover rounded-t-md"
+      />
+      <div className="w-full p-3 py-4 bg-secondary-bg-color z-99 flex gap-3 justify-between items-center rounded-b-md">
+        <h3 className="text-base text-white line-clamp-1 break-all">
+          {project.title}
+        </h3>
+        <PrimaryBtn
+          isLink={true}
+          href={project.link}
+          className="min-w-0 px-3 py-1 text-sm group flex items-center"
+        >
+          Watch{" "}
+          <FaArrowRightLong className="ml-2 group-hover:translate-x-1 transition-transform" />
+        </PrimaryBtn>
+      </div>
     </div>
   );
 }

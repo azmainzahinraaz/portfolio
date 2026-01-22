@@ -10,7 +10,7 @@ import type {
 
 export const experienceData: ExperienceType[] = [
   {
-    logoUrl: "/images/icons/muktir_ghonta.jpg",
+    logoUrl: "/experiences/1.png",
     position: "Founder & Chief Executive Officer",
     company: "I Am The Rise",
     timeline: "April 2025 - Present",
@@ -19,7 +19,7 @@ export const experienceData: ExperienceType[] = [
       "Founded a youth empowerment initiative driving leadership development, environmental advocacy, and digital awareness across underserved communities. Impacted 200+ students through sustainability workshops, tree plantation campaigns, and youth protection programs across rural schools. Launched grassroots winter relief drive distributing clothing to underprivileged families through community fundraising.",
   },
   {
-    logoUrl: "/images/icons/qaseeda.jpg",
+    logoUrl: "/experiences/2.png",
     position: "Founder & Creative Lead",
     company: "Headline Haalchaal",
     timeline: "July 2025 - Present",
@@ -28,16 +28,7 @@ export const experienceData: ExperienceType[] = [
       "Founded design-centric, bite-sized digital news platform increasing youth engagement with current affairs through visual storytelling. Scaled from zero to 3.5K+ followers, generating 4M+ monthly views and 200K+ reactions organically. Led creative visual branding, graphic design, and content strategy using audience research to optimize reach and engagement.",
   },
   {
-    logoUrl: "/images/icons/videophics.jpg",
-    position: "Founder & CEO",
-    company: "Videophics",
-    timeline: "June 2016 - Present",
-    location: "Dhaka, Bangladesh",
-    description:
-      "Founded and led a creative agency specializing in video production and graphic design. Managed a team of creatives, delivered projects for diverse clients, and built a strong portfolio showcasing innovative visual solutions.",
-  },
-  {
-    logoUrl: "/images/icons/qweekai.jpg",
+    logoUrl: "/experiences/3.png",
     position: "Lead Generation Intern (Promoted from Brand Ambassador)",
     company: "Thorne Consulting",
     timeline: "Sep 2025 - Present",
@@ -46,7 +37,7 @@ export const experienceData: ExperienceType[] = [
       "Recognized as a top performer 4× among Brand Ambassadors, producing high-impact design content, reshaping disability inclusion narrative. Generated 5M+ impressions, amplifying brand visibility 15× and achieved 1000% LinkedIn search appearance surge. Promoted based on consistent excellence; now driving lead research, qualification pipelines, and data-driven outreach.",
   },
   {
-    logoUrl: "/images/icons/100mm.jpeg",
+    logoUrl: "/experiences/4.png",
     position: "Founder, Content Creator & Media Contributor",
     company: "GSCians Territory",
     timeline: "May 2023 - Feb 2024",
@@ -55,7 +46,7 @@ export const experienceData: ExperienceType[] = [
       "Grew student-run college platform to 4K+ followers, generating 12M annual views and 97K reactions through peer-driven storytelling. Produced 5+ nationally recognized documentary videos and viral satirical content, achieving millions of views. Established primary digital gateway for institutional updates, catalyzing unprecedented alumni reconnection and community revitalization.",
   },
   {
-    logoUrl: "/images/icons/engoly.jpeg",
+    logoUrl: "/experiences/5.png",
     position: "Executive Member & Founding Member (First Olympiad Team)",
     company: "Govt. Science College Science Club",
     timeline: "Feb 2023 - Feb 2024",
@@ -64,7 +55,7 @@ export const experienceData: ExperienceType[] = [
       "Co-founded institution's inaugural Olympiad division, architecting mentorship framework for 150+ competitive participants. Directed full-scale Olympiad operations at annual science fest, executing question curation and evaluation protocols. Delivered technical workshops and coordinated logistics, including venue design and multi-team operational management.",
   },
   {
-    logoUrl: "/images/icons/millatpc.jpg",
+    logoUrl: "/experiences/6.png",
     position: "Intern",
     company: "CodeAlpha",
     timeline: "May 2025 - April 2025",
@@ -73,7 +64,7 @@ export const experienceData: ExperienceType[] = [
       "Developing technical skills through hands-on software development projects and collaborative coding challenges.",
   },
   {
-    logoUrl: "/images/icons/millatpc.jpg",
+    logoUrl: "/experiences/7.png",
     position: "Volunteer",
     company: "Volunteer for Bangladesh",
     timeline: "July 2025 - August 2025",
@@ -82,7 +73,7 @@ export const experienceData: ExperienceType[] = [
       "Contributing to post-revolution community rebuilding efforts through volunteer-driven initiatives supporting local communities and civic engagement.",
   },
   {
-    logoUrl: "/images/icons/millatpc.jpg",
+    logoUrl: "/experiences/8.png",
     position: "Volunteer",
     company: "Connect Japan - Study Abroad in Japan",
     timeline: "June 2025 - September 2025",
@@ -91,7 +82,7 @@ export const experienceData: ExperienceType[] = [
       "Promoting Japanese education and cultural exchange opportunities for Bangladeshi students through outreach and information sharing.",
   },
   {
-    logoUrl: "/images/icons/millatpc.jpg",
+    logoUrl: "/experiences/9.png",
     position: "Assistant Executive: Event Planning & Mentorship",
     company: "Govt. Science College Photography Club",
     timeline: "May 2023 - January 2024",
@@ -100,7 +91,7 @@ export const experienceData: ExperienceType[] = [
       "Captures campus life through visual storytelling while mentoring junior photographers Documented 20+ college events with official photography and social media coverage. Organized  photowalks and 2 exhibitions showcasing student work. Mentored 15+ junior members in photography techniques, composition, and event documentation skills",
   },
   {
-    logoUrl: "/images/icons/millatpc.jpg",
+    logoUrl: "/experiences/10.png",
     position: "Campus Ambassador & Intern",
     company: "International MUN",
     timeline: "May 2025 - June 2025",
@@ -109,7 +100,7 @@ export const experienceData: ExperienceType[] = [
       "Promoting Model United Nations participation and diplomatic engagement among students while supporting event coordination and outreach",
   },
   {
-    logoUrl: "/images/icons/millatpc.jpg",
+    logoUrl: "/experiences/11.png",
     position: "Campus Ambassador",
     company: "Aemers Admission Worldwide",
     timeline: "May 2025 - September 2025",
@@ -118,7 +109,7 @@ export const experienceData: ExperienceType[] = [
       "Connecting students with global education opportunities and facilitating university admission guidance for international study pathways.",
   },
   {
-    logoUrl: "/images/icons/millatpc.jpg",
+    logoUrl: "/experiences/12.png",
     position: "Ex-Affiliation Brand Partner",
     company: "ROOTs Edu",
     timeline: "Oct 2022 - Dec 2022",
@@ -258,15 +249,15 @@ export const certificateData: CertificateType[] = [
 
 export const publicationData: PublicationType[] = [
   {
-    imageUrl: "/images/icons/tshgsrhtrh.jpg",
+    imageUrl: "/publication-1.png",
     title:
       "Accessing Accessibility of Mainstream Educational Institutions for Students with Disabilities in Bangladesh",
     author: "Azmain Zahin Raaz",
     date: "Unpublished",
     publishedOn: [
       {
-        name: "Medium",
-        link: "https://azmainshamim.medium.com/exploring-the-depths-of-the-ocean-unveiling-marine-mysteries-9f4e2c3b6a1",
+        name: "Drive",
+        link: "https://drive.google.com/file/d/1R5KFdWcPL0NJNGda1XrXxhlfkdkDjqng/view?usp=sharing#/",
       },
     ],
   },
@@ -301,9 +292,8 @@ export const awardData: AwardType[] = [
     issueDate: "Aug 2025",
   },
   {
-    logoUrl:
-      "https://drive.google.com/file/d/11PvtmGHhYKOK2Zz0m2DawsEPtpwGJMDD/view#/",
-    title: "National Round Winner",
+    logoUrl: "/awards/6.jpg",
+    title: "Divisional topper & National Finalist",
     issuer: "Bangladesh Youth Environmental Initiative (BYEI)",
     issueDate: "Jun 2025",
   },
