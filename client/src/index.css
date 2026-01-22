@@ -69,6 +69,14 @@ body {
   }
 }
 
+.gallery-images {
+  width: 100%;
+  max-width: calc(var(--max-elements-width));
+  columns: 3;
+  column-gap: 20px;
+  row-gap: 20px;
+}
+
 .loader-container {
   width: 3.25em;
   transform-origin: center;

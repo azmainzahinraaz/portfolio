@@ -7,6 +7,8 @@ import type {
   SocialType,
   MusicVideoType,
   MyWorkType,
+  DocumentaryType,
+  TopContent,
 } from "@/types/work-type";
 import { FaLinkedin } from "react-icons/fa";
 
@@ -32,6 +34,216 @@ export const myWorks: MyWorkType[] = [
         icon: <FaLinkedin />,
       },
     ],
+  },
+];
+
+export const documentaries: DocumentaryType[] = [
+  {
+    src: "https://www.youtube.com/embed/_O5-kOJk88c?si=6lTbjfkp3-8IED6O",
+    title:
+      "A Short Glimpse of Government Science College , Tejgaon , Dhaka - 1215 || GSC-70",
+  },
+  {
+    src: "https://www.youtube.com/embed/qhMGi-H79xQ?si=lKGhsVDfUBSFP7nx",
+    title:
+      "A Short Tour of Government Science College , Tejgaon , Dhaka - 1215 || GSC BATCH-70 || HSC-24 ||",
+  },
+  {
+    src: "https://www.youtube.com/embed/FJM9B-DYrKE?si=GguwcPz5Qayqey_P",
+    title: "বৃষ্টি বিলাসে সবিক 🌸🌸",
+  },
+  {
+    src: "https://www.youtube.com/embed/7oVkD6eK4A0?si=0drxjDf9aTT8NLYP",
+    title:
+      "A Short Glimpse of Government Science College , Tejgaon , Dhaka - 1215 || GSC BATCH-70 || HSC-24 ||",
+  },
+  {
+    src: "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Freel%2F1806715519794970&width=560",
+    title: "দৌড়টা স্পন্দন জয় এর...",
+  },
+  {
+    src: "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Freel%2F363040082778258&width=560",
+    title:
+      "Neshar Bojha - Popeye Bangladesh - Covered by Government Science College Cultural Club",
+  },
+  {
+    src: "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Freel%2F1036732984025473&width=560",
+    title: "শহরের একমাত্র প্রেমিকা 🥺",
+  },
+  {
+    src: "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Freel%2F700169898318958&width=560",
+    title: "heaven for us !!",
+  },
+  {
+    src: "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Freel%2F843285887172912&width=560",
+    title:
+      "Purnata By GSCians - 70 || Warfaze  || GSCians - 70 || 🎥 : Azmain Zahin Raaz",
+  },
+  {
+    src: "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Freel%2F858423792468684&width=560",
+    title:
+      "Oniket Prantor By GSCians - 70 || Artcell ll || GSCians - 70 || © Azmain Zahin Raaz",
+  },
+  {
+    src: "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Freel%2F799106648480144&width=560",
+    title: "Hail GSC 💥 🎥 : Azmain Zahin Raaz",
+  },
+  {
+    src: "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Freel%2F201879575713567&width=560",
+    title: "সবিকর মুগ্ধতা🫰",
+  },
+  {
+    src: "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Freel%2F777924507256276&width=560",
+    title: "Is this the place, we used to love? 🎥 : Azmain Zahin Raaz",
+  },
+];
+
+export const topContents: TopContent[] = [
+  {
+    src: "https://www.instagram.com/p/DSKtI3wiQp4/embed/",
+    title: "Definition of a club legend, Marco Reus",
+  },
+  {
+    src: "https://www.instagram.com/p/DSagPKLgTX3/embed/",
+    title: "A devoted patriot, gone too soon.",
+  },
+  {
+    src: "https://www.instagram.com/p/DTDc1nXjJbF/embed/",
+    title:
+      "Edinson Cavani has announced his retirement from professional football at the age of 38, bringing an end to a distinguished 20-year career. In a message shared on social media, the Uruguayan striker thanked his family, friends, teammates, coaches, and fans, saying he was stepping away from the game “at peace.”",
+  },
+  {
+    src: "https://www.instagram.com/p/DTUUUXMgUku/embed/",
+    title: "Indian actor and outspoken political commentator",
+  },
+  {
+    src: "https://www.instagram.com/p/DS2vI_3jwrP/embed/",
+    title:
+      "A heartwarming video from the India–Bangladesh border has gone viral, showing Bengalis from both sides filming each other and sharing smiles and words. The moment highlights their shared language, food habits, and cultural identity, offering a rare glimpse of people-to-people connection beyond political boundaries.",
+  },
+  {
+    src: "https://www.instagram.com/p/DSzrVftgZWW/embed/",
+    title: "Santa basically said: 'You want a 1600? Catch these hands",
+  },
+  {
+    src: "https://www.instagram.com/p/DSr9lhBgQDB/embed/",
+    title: "Tarique Rahman Returns Home After 17 Years, BNP",
+  },
+  {
+    src: "https://www.instagram.com/p/DSIVa-XDU1i/embed/",
+    title: "unknown 1",
+  },
+  {
+    src: "https://www.instagram.com/reel/DR2bvzyCszS/embed/",
+    title: "unknown 2",
+  },
+  {
+    src: "https://www.instagram.com/reel/DR2XpBwEj7U/embed/",
+    title: "unknown 3",
+  },
+  {
+    src: "https://www.instagram.com/reel/DRVDuBNFfGw/embed/",
+    title: "unknown 4",
+  },
+  {
+    src: "https://www.instagram.com/reel/DRSMcIQiLb9/embed/",
+    title: "unknown 5",
+  },
+  {
+    src: "https://www.instagram.com/reel/DRNDL0oDkgD/embed/",
+    title: "unknown 6",
+  },
+  {
+    src: "https://www.instagram.com/reel/DRARkmHjqXB/embed/",
+    title: "unknown 7",
+  },
+  {
+    src: "https://www.instagram.com/reel/DOEEZ1NAU5Z/embed/",
+    title: "unknown 8",
+  },
+  {
+    src: "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Freel%2F25442775565324861&width=560",
+    title: "unknown 9",
+  },
+  {
+    src: "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Freel%2F1948360785727216&width=560",
+    title: "unknown 10",
+  },
+  {
+    src: "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Freel%2F1172664071632713&width=560",
+    title: "unknown 11",
+  },
+  {
+    src: "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Freel%2F1587129978978329&width=560",
+    title: "unknown 12",
+  },
+  {
+    src: "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Freel%2F820340934336967&width=560",
+    title: "unknown 13",
+  },
+  {
+    src: "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Freel%2F1909675546424556&width=560",
+    title: "unknown 14",
+  },
+  {
+    src: "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Freel%2F26035500682708691&width=560",
+    title: "unknown 15",
+  },
+  {
+    src: "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Freel%2F937634262276181&width=560",
+    title: "unknown 16",
+  },
+  {
+    src: "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Freel%2F3343814969118165&width=560",
+    title: "unknown 17",
+  },
+  {
+    src: "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Freel%2F1983977248851305&width=560",
+    title: "unknown 18",
+  },
+  {
+    src: "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Freel%2F3307942266019720&width=560",
+    title: "unknown 19",
+  },
+  {
+    src: "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Freel%2F1902416127356842&width=560",
+    title: "unknown 20",
+  },
+  {
+    src: "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Freel%2F1200455802030349&width=560",
+    title: "unknown 21",
+  },
+  {
+    src: "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Freel%2F1379631783815641&width=560",
+    title: "unknown 22",
+  },
+  {
+    src: "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Freel%2F2233084703849717&width=560",
+    title: "unknown 23",
+  },
+  {
+    src: "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Freel%2F2062276424518524&width=560",
+    title: "unknown 24",
+  },
+  {
+    src: "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Freel%2F811758835032662&width=560",
+    title: "unknown 25",
+  },
+  {
+    src: "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Freel%2F25043135632044731&width=560",
+    title: "unknown 26",
+  },
+  {
+    src: "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Freel%2F1887220625221855&width=560",
+    title: "unknown 27",
+  },
+  {
+    src: "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Freel%2F1491428218796987&width=560",
+    title: "unknown 28",
+  },
+  {
+    src: "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Freel%2F658866330385234&width=560",
+    title: "unknown 29",
   },
 ];
 

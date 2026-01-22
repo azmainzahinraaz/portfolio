@@ -1,9 +1,11 @@
+import Documentaries from "@/components/works-components/documentaries";
 import MusicVideos from "@/components/works-components/music-videos";
 import MyWorks from "@/components/works-components/my-works";
 import Photos from "@/components/works-components/photos";
 import Podcasts from "@/components/works-components/podcasts";
 import Projects from "@/components/works-components/projects";
 import Seminars from "@/components/works-components/seminars";
+import TopContents from "@/components/works-components/top-contents";
 import { designs, photography, social } from "@/services/data/work-data";
 import type { ReactNode } from "react";
 import { Helmet } from "react-helmet-async";
@@ -27,6 +29,8 @@ export default function Works(): ReactNode {
           />
           <div className="w-full h-full flex flex-col gap-30 max-md:gap-20 max-sm:gap-15">
             <MyWorks />
+            <Documentaries />
+            <TopContents />
             <MusicVideos />
             <Podcasts />
             <Projects />

@@ -10,6 +10,16 @@ export type MyWorkType = {
   }[];
 };
 
+export type DocumentaryType = {
+  src: string;
+  title: string;
+};
+
+export type TopContent = {
+  src: string;
+  title: string;
+};
+
 export type MusicVideoType = {
   imageUrl: string;
   title: string;

@@ -111,7 +111,7 @@ export const socialLinks: { platform: string; icon: ReactNode; url: string }[] =
     {
       platform: "YouTube",
       icon: <FaYoutube />,
-      url: "#",
+      url: "https://www.youtube.com/@azmainzahinraaz#/",
     },
   ];
 
