@@ -7,6 +7,7 @@ import { useEffect, useState, type ReactNode } from "react";
 import { useQuery } from "react-query";
 
 import "@/index.css";
+import { Helmet } from "react-helmet-async";
 
 export default function Discussions(): ReactNode {
   const [title, setTitle] = useState<string>("");
@@ -47,22 +48,28 @@ export default function Discussions(): ReactNode {
     discussionsData?.data.discussions || [];
 
   return (
-    <main className="w-full h-full flex justify-center pb-10 items-center">
-      <div className="w-full h-full max-w-small-max-width border-l border-dark-gray flex max-[850px]:flex-col gap-5">
-        <div className="w-full h-full flex flex-col">
-          <DiscussionsHeader
-            title={title}
-            setTitle={setTitle}
-            sortBy={sortBy}
-            setSortBy={setSortBy}
+    <>
+      <Helmet>
+        <title>Azmain Zahin Raaz - Discussions</title>
+      </Helmet>
+
+      <main className="w-full h-full flex justify-center pb-10 items-center">
+        <div className="w-full h-full max-w-small-max-width border-l border-dark-gray flex max-[850px]:flex-col gap-5">
+          <div className="w-full h-full flex flex-col">
+            <DiscussionsHeader
+              title={title}
+              setTitle={setTitle}
+              sortBy={sortBy}
+              setSortBy={setSortBy}
+            />
+            <DiscussionList discussionData={data} isLoading={isLoading} />
+          </div>
+          <FeaturedDiscussions
+            discussionData={featuredDiscussions}
+            isLoading={isLoading && featuredDiscussions.length === 0}
           />
-          <DiscussionList discussionData={data} isLoading={isLoading} />
         </div>
-        <FeaturedDiscussions
-          discussionData={featuredDiscussions}
-          isLoading={isLoading && featuredDiscussions.length === 0}
-        />
-      </div>
-    </main>
+      </main>
+    </>
   );
 }

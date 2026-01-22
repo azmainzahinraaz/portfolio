@@ -11,21 +11,21 @@ import type {
 export const experienceData: ExperienceType[] = [
   {
     logoUrl: "/images/icons/muktir_ghonta.jpg",
-    position: "Chief Executive Officer",
-    company: "Muktir Ghonta Foundation",
-    timeline: "January 2020 - Present",
+    position: "Founder & Chief Executive Officer",
+    company: "I Am The Rise",
+    timeline: "April 2025 - Present",
     location: "Dhaka, Bangladesh",
     description:
-      "Led a 6-year-old organization of 30+ members focused on social impact and intellectual growth. Organized 100+ seminars, an international photo contest, and 50+ creative projects, impacting various communities.",
+      "Founded a youth empowerment initiative driving leadership development, environmental advocacy, and digital awareness across underserved communities. Impacted 200+ students through sustainability workshops, tree plantation campaigns, and youth protection programs across rural schools. Launched grassroots winter relief drive distributing clothing to underprivileged families through community fundraising.",
   },
   {
     logoUrl: "/images/icons/qaseeda.jpg",
-    position: "Head of Marketing & Band Artist",
-    company: "Qaseeda - কাসীদা",
-    timeline: "March 2018 - Present",
+    position: "Founder & Creative Lead",
+    company: "Headline Haalchaal",
+    timeline: "July 2025 - Present",
     location: "Dhaka, Bangladesh",
     description:
-      "Spearheaded marketing strategies and brand development for a renowned Islamic band with 1M+ YouTube subscribers. Managed social media, organized events, and contributed as a band artist, enhancing the band's reach and engagement.",
+      "Founded design-centric, bite-sized digital news platform increasing youth engagement with current affairs through visual storytelling. Scaled from zero to 3.5K+ followers, generating 4M+ monthly views and 200K+ reactions organically. Led creative visual branding, graphic design, and content strategy using audience research to optimize reach and engagement.",
   },
   {
     logoUrl: "/images/icons/videophics.jpg",
@@ -38,123 +38,221 @@ export const experienceData: ExperienceType[] = [
   },
   {
     logoUrl: "/images/icons/qweekai.jpg",
-    position: "Creative Department Head",
-    company: "Qweek AI",
-    timeline: "March 2023 - August 2023",
+    position: "Lead Generation Intern (Promoted from Brand Ambassador)",
+    company: "Thorne Consulting",
+    timeline: "Sep 2025 - Present",
     location: "Remote",
     description:
-      "Led the creative department at Qweek AI, overseeing content creation and visual design. Collaborated with cross-functional teams to enhance brand presence and user engagement through innovative AI-driven solutions.",
+      "Recognized as a top performer 4× among Brand Ambassadors, producing high-impact design content, reshaping disability inclusion narrative. Generated 5M+ impressions, amplifying brand visibility 15× and achieved 1000% LinkedIn search appearance surge. Promoted based on consistent excellence; now driving lead research, qualification pipelines, and data-driven outreach.",
   },
   {
     logoUrl: "/images/icons/100mm.jpeg",
-    position: "Photographer & Graphics Designer",
-    company: "100 Million Mindset",
-    timeline: "January 2021 - December 2021",
+    position: "Founder, Content Creator & Media Contributor",
+    company: "GSCians Territory",
+    timeline: "May 2023 - Feb 2024",
     location: "Dhaka, Bangladesh",
     description:
-      "Provided photography and graphic design services for 100 Million Mindset, contributing to their visual storytelling and brand identity. Created compelling visuals that supported their mission of empowering individuals through knowledge and inspiration.",
+      "Grew student-run college platform to 4K+ followers, generating 12M annual views and 97K reactions through peer-driven storytelling. Produced 5+ nationally recognized documentary videos and viral satirical content, achieving millions of views. Established primary digital gateway for institutional updates, catalyzing unprecedented alumni reconnection and community revitalization.",
   },
   {
     logoUrl: "/images/icons/engoly.jpeg",
-    position: "Content Creator & Graphics Designer",
-    company: "Engoly",
-    timeline: "June 2020 - December 2020",
+    position: "Executive Member & Founding Member (First Olympiad Team)",
+    company: "Govt. Science College Science Club",
+    timeline: "Feb 2023 - Feb 2024",
     location: "Dhaka, Bangladesh",
     description:
-      "Developed engaging content and graphic designs for Engoly, enhancing their online presence and audience engagement. Collaborated with the marketing team to create visually appealing materials that aligned with the brand's goals.",
+      "Co-founded institution's inaugural Olympiad division, architecting mentorship framework for 150+ competitive participants. Directed full-scale Olympiad operations at annual science fest, executing question curation and evaluation protocols. Delivered technical workshops and coordinated logistics, including venue design and multi-team operational management.",
   },
   {
     logoUrl: "/images/icons/millatpc.jpg",
-    position: "President & Founder",
-    company: "Millat PC",
-    timeline: "March 2015 - March 2017",
+    position: "Intern",
+    company: "CodeAlpha",
+    timeline: "May 2025 - April 2025",
+    location: "Remote",
+    description:
+      "Developing technical skills through hands-on software development projects and collaborative coding challenges.",
+  },
+  {
+    logoUrl: "/images/icons/millatpc.jpg",
+    position: "Volunteer",
+    company: "Volunteer for Bangladesh",
+    timeline: "July 2025 - August 2025",
     location: "Dhaka, Bangladesh",
     description:
-      "Founded and led Millat PC, a community dedicated to technology enthusiasts. Organized events, workshops, and meetups to foster knowledge sharing and collaboration among members, promoting technological advancement in the community.",
+      "Contributing to post-revolution community rebuilding efforts through volunteer-driven initiatives supporting local communities and civic engagement.",
+  },
+  {
+    logoUrl: "/images/icons/millatpc.jpg",
+    position: "Volunteer",
+    company: "Connect Japan - Study Abroad in Japan",
+    timeline: "June 2025 - September 2025",
+    location: "Dhaka, Bangladesh",
+    description:
+      "Promoting Japanese education and cultural exchange opportunities for Bangladeshi students through outreach and information sharing.",
+  },
+  {
+    logoUrl: "/images/icons/millatpc.jpg",
+    position: "Assistant Executive: Event Planning & Mentorship",
+    company: "Govt. Science College Photography Club",
+    timeline: "May 2023 - January 2024",
+    location: "Dhaka, Bangladesh",
+    description:
+      "Captures campus life through visual storytelling while mentoring junior photographers Documented 20+ college events with official photography and social media coverage. Organized  photowalks and 2 exhibitions showcasing student work. Mentored 15+ junior members in photography techniques, composition, and event documentation skills",
+  },
+  {
+    logoUrl: "/images/icons/millatpc.jpg",
+    position: "Campus Ambassador & Intern",
+    company: "International MUN",
+    timeline: "May 2025 - June 2025",
+    location: "Remote",
+    description:
+      "Promoting Model United Nations participation and diplomatic engagement among students while supporting event coordination and outreach",
+  },
+  {
+    logoUrl: "/images/icons/millatpc.jpg",
+    position: "Campus Ambassador",
+    company: "Aemers Admission Worldwide",
+    timeline: "May 2025 - September 2025",
+    location: "Dhaka, Bangladesh",
+    description:
+      "Connecting students with global education opportunities and facilitating university admission guidance for international study pathways.",
+  },
+  {
+    logoUrl: "/images/icons/millatpc.jpg",
+    position: "Ex-Affiliation Brand Partner",
+    company: "ROOTs Edu",
+    timeline: "Oct 2022 - Dec 2022",
+    location: "Dhaka, Bangladesh",
+    description:
+      "Promoted educational programs and student resources through strategic campus outreach and brand partnership initiatives.",
   },
 ];
 
 export const skillData: SkillType[] = [
   "Leadership",
-  "Filmmaking",
+  "Entrepreneurship",
   "Journalism",
-  "Volunteering",
   "Graphic Design",
-  "Cinematography",
   "Photography",
-  "Performing arts",
+  "Filmmaking",
+  "Video Editing",
   "Digital Marketing",
+  "Content Strategy",
+  "Social Media Management",
+  "Visual Storytelling",
+  "Community Building",
+  "Full-Stack Development",
+  "Web Development",
+  "Civic Engagement",
+  "Environmental Advocacy",
+  "Youth Empowerment",
+  "Public Speaking",
+  "Event Management",
+  "Documentary Production",
+  "Brand Strategy",
+  "Creative Direction",
 ];
 
 export const educationData: EducationType[] = [
   {
-    logoUrl: "/images/icons/knox.jpg",
-    name: "Knox College, USA",
-    degree: "Bachelor in Film & Liberal Studies",
-    timeline: "Sep 2025 - Sep 2029",
-    institution: "https://www.knox.edu/",
+    logoUrl: "/education/government_science_college_logo.jpg",
+    name: "Govt. Science College, Tejgaon, Dhaka",
+    degree: "HSC",
+    timeline: "Jan 2023 - Oct 2024",
+    institution: "https://www.gsctd.edu.bd/",
   },
   {
-    logoUrl: "/images/icons/tmkm.jpg",
-    name: "Tamirul Millat Kamil Madrasah",
-    degree: "SSC & HSC Level",
-    grade: "A+",
-    timeline: "2019 - 2023",
-    institution: "https://www.linkedin.com/school/tmkm-edu/",
+    logoUrl: "/education/cropped-logo-retina-1.png",
+    name: "Police Lines School and College, Rangpur",
+    degree: "JSC & SSC",
+    timeline: "April 2018 - Oct 2022",
+    institution: "https://www.plscr.edu.bd/",
+  },
+  {
+    logoUrl: "/education/100154.jpg",
+    name: "Barguna Zilla School, Barguna",
+    degree: "Class 7",
+    timeline: "Jan 2017 - Dec 2017",
+    institution: "https://www.barisalboard.gov.bd/100154",
+  },
+  {
+    logoUrl: "/education/contact_1761800108_2025-10-30.png",
+    name: "Lions School & College, Rangpur",
+    degree: "PSC",
+    timeline: "Jan 2014 - Nov 2016",
+    institution: "https://lscs.edu.bd/homes#/",
   },
 ];
 
 export const certificateData: CertificateType[] = [
   {
-    logoUrl: "/images/icons/google.jpg",
-    title: "Foundation of UX Course",
-    issuer: "Google",
-    issueDate: "Feb 2023",
-    credentialUrl: "https://coursera.org/verify/V4FPJQJYBDSC",
+    logoUrl:
+      "https://media.licdn.com/dms/image/v2/D4E0BAQGCKNEAAaAbFg/company-logo_100_100/B4EZqq7q39KgAQ-/0/1763804361080/ai_certs_logo?e=1770854400&v=beta&t=T0Q7IZdfGk0wszmHBMWqLCRPL0aI6ROnMgTRxjtuM5c#/",
+    title: "AI Foundation™",
+    issuer: "AI CERTs",
+    issueDate: "Jul 2025",
+    credentialUrl: "https://verify.certs365.io/?=4e8314bc5b22",
   },
   {
-    logoUrl: "/images/icons/google.jpg",
-    title: "Fundamentals of Digital Marketing Course",
-    issuer: "Google Digital Garage",
-    issueDate: "Mar 2023",
-    credentialUrl: "https://learndigital.withgoogle.com/link/1qsdpcedm9s",
-  },
-  {
-    logoUrl: "/images/icons/aspirelp.jpg",
-    title: "Aspire Leadership Program",
-    issuer: "Aspire Foundation",
-    issueDate: "Aug 2022",
+    logoUrl:
+      "https://media.licdn.com/dms/image/v2/C560BAQHaVYd13rRz3A/company-logo_100_100/company-logo_100_100/0/1638831590218/linkedin_logo?e=1770854400&v=beta&t=p4BL5cwxCpBRloGXXpdHpWExkLDm2yorYUaJXWeyuqE#/",
+    title: "Programming Foundations: Fundamentals",
+    issuer: "Linkedin",
+    issueDate: "may 2025",
     credentialUrl:
-      "https://drive.google.com/file/d/1QzAbGU3-7bWX72cXot3slQStbll9TsgF/view?usp=share_link",
+      "https://www.linkedin.com/learning/certificates/0b0116b45760f3e964b999a325ca9dba55fbbf6fc5a360bde700c2dc24993713",
   },
   {
-    logoUrl: "/images/icons/eduonix.jpg",
-    title: "Complete Web Development Bootcamp",
-    issuer: "Eduonix Learning Solutions",
-    issueDate: "Jan 2022",
-    credentialUrl: "https://www.eduonix.com/certificate/9c27b8cdf8",
-  },
-  {
-    logoUrl: "/images/icons/whocerti.jpg",
-    title: "COVID-19 Contact Tracing",
-    issuer: "World Health Organization (WHO)",
-    issueDate: "May 2020",
+    logoUrl:
+      "https://media.licdn.com/dms/image/v2/C560BAQHOaghrduxRvw/company-logo_100_100/company-logo_100_100/0/1631300536323?e=1770854400&v=beta&t=V54cWoyJaqrlFeix01199oirF_fZpeHtVr3zpRY3OAk#/",
+    title: "Durable Solutions for IDPs",
+    issuer: "UNHCR, the UN Refugee Agency",
+    issueDate: "Apr 2022",
     credentialUrl:
-      "https://www.youracclaim.com/badges/9f6f5fcb-1e1b-4d3e-8f6b-6e8e8f2d2a1b/public_url",
+      "https://agora.unicef.org/mod/certificate/view.php?id=298552&action=get",
   },
   {
-    logoUrl: "/images/icons/hplife.jpg",
-    title: "HP LIFE Online Course",
-    issuer: "Hewlett-Packard",
-    issueDate: "Dec 2019",
+    logoUrl:
+      "https://media.licdn.com/dms/image/v2/C4D0BAQGexnfBxeEG-g/company-logo_100_100/company-logo_100_100/0/1630530042036/coursera_logo?e=1770854400&v=beta&t=Th44DrBFLWeAI4DPcdmz4o0KEyrqzSlABgyaWZ_Tyrs",
+    title: "Google Ads for Beginners",
+    issuer: "Coursera",
+    issueDate: "Apr 2022",
     credentialUrl:
-      "https://drive.google.com/file/d/1tUF5ofz79vGN2C6-hzK427T-Uu9fvl6j/view?usp=sharing",
+      "https://www.coursera.org/account/accomplishments/records/8NTM3Z5WV0E8",
   },
   {
-    logoUrl: "/images/icons/openlearn.jpg",
-    title: "Entrepreneurship - from ideas to reality",
-    issuer: "The Open University",
-    issueDate: "Nov 2019",
+    logoUrl:
+      "https://media.licdn.com/dms/image/v2/C510BAQE5WFsvU5iicw/company-logo_100_100/company-logo_100_100/0/1631310285230?e=1770854400&v=beta&t=WfTxEeV5-Oc1K8B9sf0w9yGi6PSqNtlMVdMFNPrlenE",
+    title: "Introduction to Child Protection",
+    issuer: "UNICEF",
+    issueDate: "Apr 2025",
+    credentialUrl:
+      "https://agora.unicef.org/mod/certificate/view.php?id=3289&action=get",
+  },
+  {
+    logoUrl:
+      "https://media.licdn.com/dms/image/v2/C560BAQFo_RM9apHHyw/company-logo_100_100/company-logo_100_100/0/1675588976486/10ms_logo?e=1770854400&v=beta&t=wdUVlgbbF1YUFSdCSazZ6m7tP3cGN3KmN7kLDY4lt-0",
+    title: "Presentation and Public Speaking",
+    issuer: "10 Minute School",
+    issueDate: "Apr 2025",
+    credentialUrl: "https://10minuteschool.com/certificate/6806fcdd3b7c1",
+  },
+  {
+    logoUrl:
+      "https://media.licdn.com/dms/image/v2/C560BAQFo_RM9apHHyw/company-logo_100_100/company-logo_100_100/0/1675588976486/10ms_logo?e=1770854400&v=beta&t=wdUVlgbbF1YUFSdCSazZ6m7tP3cGN3KmN7kLDY4lt-0",
+    title: "Professional Email Writing",
+    issuer: "10 Minute School",
+    issueDate: "Apr 2025",
+    credentialUrl: "https://10minuteschool.com/certificate/6806eca57dafa",
+  },
+  {
+    logoUrl:
+      "https://media.licdn.com/dms/image/v2/C560BAQHaVYd13rRz3A/company-logo_100_100/company-logo_100_100/0/1638831590218/linkedin_logo?e=1770854400&v=beta&t=p4BL5cwxCpBRloGXXpdHpWExkLDm2yorYUaJXWeyuqE",
+    title: "Project Management Foundations",
+    issuer: "Linkedin",
+    issueDate: "Apr 2025",
+    credentialUrl:
+      "https://www.linkedin.com/learning/certificates/4758013aa9ae9fc0f2e5081a9f3bb008c1e0bfd73e50b90d29a72bfad966b42b?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3Bl4JbD5T8QuGN%2Bb%2F%2FEoQz8A%3D%3D",
   },
 ];
 
@@ -162,56 +260,9 @@ export const publicationData: PublicationType[] = [
   {
     imageUrl: "/images/icons/tshgsrhtrh.jpg",
     title:
-      "Bangladeshi July Revolution & Visual Representation Impacts: A Film Impact Aspect",
-    author: "Azmain Shamim",
-    date: "July 15, 2023",
-    publishedOn: [
-      {
-        name: "Researchgate",
-        logoUrl: "researchgate-icon-2047x2048-5zkr6kip.png",
-        link: "https://www.researchgate.net/publication/386275443_Bangladeshi_July_Revolution_Visual_Representation_Impacts_A_Film_Impact_Aspect",
-      },
-      {
-        name: "Zenodo",
-        logoUrl: "zenodo.png",
-        link: "https://zenodo.org/records/14250823",
-      },
-      {
-        name: "SSRN",
-        logoUrl: "SSRN.png",
-        link: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5040227",
-      },
-    ],
-  },
-  {
-    imageUrl: "/images/icons/publi1.png",
-    title: "The mysteries of dark matter and dark energy",
-    author: "Azmain Shamim",
-    date: "June 10, 2023",
-    publishedOn: [
-      {
-        name: "Medium",
-        link: "https://azmainshamim.medium.com/the-mysteries-of-dark-matter-and-dark-energy-7e3f1f5f2a3",
-      },
-    ],
-  },
-  {
-    imageUrl: "/images/icons/publi2.png",
-    title: "The rise of electric vehicles: A sustainable future",
-    author: "Azmain Shamim",
-    date: "May 5, 2023",
-    publishedOn: [
-      {
-        name: "Medium",
-        link: "https://azmainshamim.medium.com/the-rise-of-electric-vehicles-a-sustainable-future-4b8f3e2c1d5",
-      },
-    ],
-  },
-  {
-    imageUrl: "/images/icons/publi3.png",
-    title: "Exploring the depths of the ocean: Unveiling marine mysteries",
-    author: "Azmain Shamim",
-    date: "April 12, 2023",
+      "Accessing Accessibility of Mainstream Educational Institutions for Students with Disabilities in Bangladesh",
+    author: "Azmain Zahin Raaz",
+    date: "Unpublished",
     publishedOn: [
       {
         name: "Medium",
@@ -223,16 +274,38 @@ export const publicationData: PublicationType[] = [
 
 export const awardData: AwardType[] = [
   {
-    logoUrl: "/images/icons/gloclawa.jpg",
-    title: "Global Leadership Award",
-    issuer: "Aspire Foundation",
-    issueDate: "December 2022",
+    logoUrl:
+      "https://media.licdn.com/dms/image/v2/D562DAQF-t2t0xywt9A/profile-treasury-image-shrink_1280_1280/B56ZlylCErI4AQ-/0/1758563939994?e=1769709600&v=beta&t=rDtXCCF1Wjo7bEuanlKIeYmNLfOssffQorsEw1gnYDg",
+    title: "Silver Honour (Top 8%)",
+    issuer: "International Astronomy and Astrophysics Competition",
+    issueDate: "Sep 2025",
   },
   {
-    logoUrl: "/images/icons/elanreco.jpg",
-    title: "Elan Award for Excellence in Volunteering",
-    issuer: "Elan",
-    issueDate: "March 2021",
+    logoUrl:
+      "https://media.licdn.com/dms/image/v2/D5622AQEgrNpMz0XKTw/feedshare-shrink_2048_1536/B56ZiirGpTHcAo-/0/1755075866460?e=1770854400&v=beta&t=t9W14kzx-Icp1hqDCoo9gPss9rFxbJL6uDv9h7lMpM4",
+    title: "AI4Change Campaign Winner",
+    issuer: "United Nations Development Programme in Bangladesh ",
+    issueDate: "Aug 2025",
+  },
+  {
+    logoUrl:
+      "https://media.licdn.com/dms/image/v2/D562DAQGGVctfSQOceQ/profile-treasury-image-shrink_800_800/B56ZkEF9sWG0AY-/0/1756710298875?e=1769709600&v=beta&t=h0AewJ71Qldr9tWXbMxxPzLVreaJ-rClzjNt2zXgwq8",
+    title: "Distinction Award Winner",
+    issuer: "International Environmental Olympiad",
+    issueDate: "Aug 2025",
+  },
+  {
+    logoUrl: "/awards/527570211_679315161804166_2093246052619205821_n.jpg",
+    title: "National Round Winner",
+    issuer: "International Environmental Olympiad",
+    issueDate: "Aug 2025",
+  },
+  {
+    logoUrl:
+      "https://drive.google.com/file/d/11PvtmGHhYKOK2Zz0m2DawsEPtpwGJMDD/view#/",
+    title: "National Round Winner",
+    issuer: "Bangladesh Youth Environmental Initiative (BYEI)",
+    issueDate: "Jun 2025",
   },
 ];
 
@@ -260,18 +333,18 @@ export const aboutSwiperData: {
   text: string;
 }[] = [
   {
-    logoUrl: "/images/icons/google.png",
+    logoUrl: "/facebook.png",
+    platform: "Facebook",
+    text: "Recognized as Content Creator",
+  },
+  {
+    logoUrl: "/linkedin.png",
+    platform: "LinkedIn",
+    text: "Verified as Entrepreneur",
+  },
+  {
+    logoUrl: "/google.png",
     platform: "Google",
-    text: "Verified as Filmmaker",
-  },
-  {
-    logoUrl: "/images/icons/youtube.png",
-    platform: "YouTube",
-    text: "Recognized as Artist",
-  },
-  {
-    logoUrl: "/images/icons/spotify.png",
-    platform: "Spotify",
-    text: "Featured as Musician",
+    text: "Verified as Digital Innovator",
   },
 ];

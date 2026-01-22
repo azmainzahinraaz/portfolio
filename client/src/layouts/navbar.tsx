@@ -12,7 +12,7 @@ export default function Navbar(): ReactNode {
       <nav className="w-full h-fit flex justify-between items-center max-w-max-width">
         <NavLink to="/" className="text-2xl font-bold">
           <img
-            src="/pfp.jpg"
+            src="/avatar.png"
             alt="Profile picture"
             className="aspect-square rounded-full object-cover object-center"
             width={35}

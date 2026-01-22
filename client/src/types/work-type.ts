@@ -1,3 +1,15 @@
+import type { ReactNode } from "react";
+
+export type MyWorkType = {
+  imageUrl: string;
+  title: string;
+  links: {
+    name: string;
+    url: string;
+    icon: ReactNode;
+  }[];
+};
+
 export type MusicVideoType = {
   imageUrl: string;
   title: string;

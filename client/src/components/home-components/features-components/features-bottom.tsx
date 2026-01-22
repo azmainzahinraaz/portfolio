@@ -6,15 +6,16 @@ export default function FeaturesBottom(): ReactNode {
     <div
       className="w-full h-full px-15 max-sm:px-7 pb-12 pt-10 flex justify-center gap-10 rounded-md max-lg:flex-col max-lg:items-center"
       style={{
-        background: "url('/features-top-bg.jpg')",
+        background:
+          "linear-gradient(to top,rgba(0,0,0,.6) 40%,transparent),url('/azmain-features-top-bg.jpg')",
         backgroundPosition: "center",
         backgroundSize: "cover",
         backgroundRepeat: "no-repeat",
       }}
     >
-      <FeatureBottomCard target={70} title="Audience" afterText=",000+" />
-      <FeatureBottomCard target={300} title="Team Member" afterText="+" />
+      <FeatureBottomCard target={10} title="Audience" afterText=",000+" />
       <FeatureBottomCard target={20} title="Reached" afterText="M+" />
+      <FeatureBottomCard target={200} title="Students Impacted" afterText="+" />
     </div>
   );
 }

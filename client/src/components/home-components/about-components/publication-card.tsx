@@ -29,7 +29,7 @@ export default function PublicationCard({
             target={"_blank"}
             isLink={true}
           >
-            View the paper
+            Show the abstract
           </PrimaryBtn>
         ) : (
           <div className="w-full flex gap-2">

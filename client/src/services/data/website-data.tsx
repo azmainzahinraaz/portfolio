@@ -21,7 +21,7 @@ export const navLinks: { name: string; path: string }[] = [
   { name: "Home", path: "/" },
   { name: "About", path: "/about" },
   { name: "Works", path: "/works" },
-  { name: "Contents", path: "/contents" },
+  { name: "Visual Design", path: "/visual-design" },
   { name: "Discuss", path: "/discuss" },
   { name: "Blog", path: "/blog" },
 ];
@@ -29,7 +29,7 @@ export const navLinks: { name: string; path: string }[] = [
 export const personalInfo: { label: string; value: string }[] = [
   {
     label: "Born",
-    value: `3 August 2005 (age ${new Date().getFullYear() - 2005})`, // dynamically calculate age
+    value: `22 April 2006 (age 19)`,
   },
   {
     label: "Residence",
@@ -41,7 +41,7 @@ export const personalInfo: { label: string; value: string }[] = [
   },
   {
     label: "Education",
-    value: "Tamirul Millat Kamil Madrasha",
+    value: "Govt. Science College",
   },
   {
     label: "Religion",
@@ -49,7 +49,7 @@ export const personalInfo: { label: string; value: string }[] = [
   },
   {
     label: "Parents",
-    value: "Alhaj Md. Saiful Islam & Mosammat Rokeya Sultana",
+    value: "Khondker Abdul Kader Razu & Mst. Arjuman Ara",
   },
 ];
 
@@ -59,68 +59,24 @@ export const testimonialData: { [type: string]: TestimonialType[] } = {
       name: "John Doe",
       imageUrl: "/pfp-2.png",
       testimonial:
-        "Azmain is an exceptional developer with a keen eye for detail. His dedication to his craft is evident in every project he undertakes.",
+        "Azmain Zahin Raaz is driven by clarity and purpose. He does not chase visibility; he focuses on building work that creates value. Whether in academics, projects, or initiatives, he approaches problems analytically and executes with discipline. His strength lies in connecting ideas with action and turning intent into outcomes. What sets Azmain apart is resilience. Growing up with limited resources, he learned to self-direct his growth and stay consistent under pressure. He works with long-term vision, prioritizing impact, integrity, and continuous improvement over short-term success.",
     },
     {
       name: "Jane Smith",
       imageUrl: "/pfp-2.png",
       testimonial:
-        "Working with Azmain has been a transformative experience. His innovative approach and problem-solving skills are truly commendable.",
+        "Azmain leads by doing. He steps forward when responsibility is unclear and ensures progress without dominating others. In team environments, he communicates directly, listens carefully, and keeps everyone aligned with the goal. His leadership style is calm, structured, and result-focused. He values people as much as process. Azmain supports peers, shares knowledge freely, and believes strong teams are built through trust and accountability. This balance makes him reliable in both leadership and collaborative roles.",
     },
     {
       name: "Alice Johnson",
       imageUrl: "/pfp-2.png",
       testimonial:
-        "Azmain's ability to seamlessly integrate design and functionality sets him apart in the tech industry. A true professional!",
+        "Professionally, Azmain operates with maturity and precision. He respects deadlines, communicates clearly, and takes ownership of results. When challenges arise, he adapts quickly and focuses on solutions instead of excuses. Beyond tasks, he thinks systemically. Azmain seeks ways to improve processes, increase efficiency, and create a sustainable impact. His forward-thinking mindset makes him dependable in high-responsibility environments.",
     },
     {
       name: "Bob Brown",
       imageUrl: "/pfp-2.png",
       testimonial: `In the creative arena of Bangladesh, perhaps there has never been such a talented designer at such a young age. I mentioned Saad Al Amin, a gifted and successful young graphic designer, who, despite being just a teenager, has already achieved so much. Although Saad is equally adept as a skilled video editor and a creative producer, his journey began with graphic design. Generally, if our work is not at a professional level, we do not publish it, and therefore, Saad was initially assigned the responsibility of "Prashn" (a Bangla song). Despite his age and experience, while Prashn's work was well done, we did not consider it professional enough to publish. However, later on, our perception changed when we saw Saad's designs for the #MakeMEClose (a Bangla song). Those designs captivated all of us. So much so that we officially selected Saad's typography over the typography of three other people. And this is how Saad made his entry into the professional design world. Good news is that Saad has been solely assigned the responsibility for the complete official design of the #ShowMeTheWay (a Bangla song). Once again, Saad's competence and signature are being entrusted. Some have already been published, and more is yet to come. In the future, he will do even better, and his life will add more to his history. I pray and wish for his success. Dear Tarannum's uncle and our national little brother, Miah Saad, go far ahead!! Best wishes.`,
-    },
-  ],
-  general: [
-    {
-      name: "Charlie Davis",
-      imageUrl: "/pfp-2.png",
-      testimonial:
-        "Azmain's collaborative spirit and positive attitude make him a joy to work with. He consistently goes above and beyond to ensure project success.",
-    },
-    {
-      name: "Diana Evans",
-      imageUrl: "/pfp-2.png",
-      testimonial:
-        "The quality of Azmain's work is unparalleled. His commitment to excellence and continuous learning is truly inspiring.",
-    },
-    {
-      name: "Frank Green",
-      imageUrl: "/pfp-2.png",
-      testimonial:
-        "Azmain has a unique ability to understand client needs and translate them into effective solutions. His communication skills are top-notch.",
-    },
-    {
-      name: "Grace Harris",
-      imageUrl: "/pfp-2.png",
-      testimonial:
-        "I highly recommend Azmain for any development project. His expertise, professionalism, and dedication make him an invaluable asset to any team.",
-    },
-    {
-      name: "Henry Wilson",
-      imageUrl: "/pfp-2.png",
-      testimonial:
-        "Azmain's innovative mindset and technical prowess have significantly contributed to the success of our projects. He is a true asset to any organization.",
-    },
-    {
-      name: "Isabella Martinez",
-      imageUrl: "/pfp-2.png",
-      testimonial:
-        "Working with Azmain has been a game-changer for our team. His ability to think outside the box and deliver creative solutions is truly impressive.",
-    },
-    {
-      name: "Jack Lee",
-      imageUrl: "/pfp-2.png",
-      testimonial:
-        "Azmain's dedication to his work and his passion for technology are evident in everything he does. He is a reliable and talented developer.",
     },
   ],
 };
@@ -135,22 +91,22 @@ export const socialLinks: { platform: string; icon: ReactNode; url: string }[] =
     {
       platform: "LinkedIn",
       icon: <FaLinkedin />,
-      url: "https://www.linkedin.com/in/azmaincodes/",
+      url: "https://www.linkedin.com/in/azmainzahinraaz/",
     },
     {
       platform: "Facebook",
       icon: <FaFacebook />,
-      url: "#",
+      url: "https://www.facebook.com/azmainzahinraaz#",
     },
     {
       platform: "Twitter",
       icon: <FaTwitter />,
-      url: "#",
+      url: "https://x.com/azmainzahinraaz",
     },
     {
       platform: "Instagram",
       icon: <FaInstagram />,
-      url: "#",
+      url: "https://www.instagram.com/azmainzahinraaz/",
     },
     {
       platform: "YouTube",
@@ -167,125 +123,114 @@ export const contactLinkItems = [
 
 export const faqData: FaqType[] = [
   {
-    question: "What services do you offer?",
+    question: "Who is Azmain Zahin Raaz?",
     answer:
-      "I offer web development, content creation, and digital marketing services tailored to your needs.",
+      "Azmain Zahin Raaz is a Bangladeshi Computer Science enthusiast, youth leader, and founder using technology and storytelling to drive social change.",
   },
   {
-    question: "How can I contact you for a project?",
+    question: "What is Azmain Zahin Raaz currently doing?",
     answer:
-      "You can reach out to me via the contact form on my website or email me directly at",
+      "He is in a gap year dedicated to entrepreneurship, social impact, and independent software and research projects with global relevance.",
   },
   {
-    question: "What is your development process?",
+    question: "What is Azmain Zahin Raaz known for?",
     answer:
-      "My development process includes requirement analysis, design, development, testing, and deployment to ensure a high-quality product.",
+      "He is known for founding I Am The Rise, Headline Haalchaal, and for conducting research on accessibility and inclusion for students with disabilities in Bangladeshi education systems.",
   },
   {
-    question: "Do you provide ongoing support after project completion?",
+    question: "What kind of research has Azmain Zahin Raaz conducted?",
     answer:
-      "Yes, I offer maintenance and support services to ensure your project remains up-to-date and functional.",
+      "He conducted a multi-division study exposing gaps in disability accessibility in mainstream education and proposed policy-aligned, implementable solutions for inclusive learning.",
   },
   {
-    question: "What technologies do you specialize in?",
+    question: "What impact has Azmain Zahin Raaz created?",
     answer:
-      "I specialize in modern web technologies such as React, Node.js, and Python, among others.",
+      "His work has directly impacted 200+ students and reached millions through high-impact visual storytelling that reshaped how youth engage with civic and social issues.",
   },
   {
-    question: "Can you help with SEO and digital marketing?",
+    question: "What makes Azmain Zahin Raaz’s work different?",
     answer:
-      "Absolutely! I provide SEO optimization and digital marketing strategies to help increase your online presence.",
+      "He blends technology, data, and design to turn complex social problems into scalable, youth-driven action and awareness.",
   },
   {
-    question: "What are your rates for services?",
+    question: "What are Azmain Zahin Raaz’s career goals?",
     answer:
-      "My rates vary depending on the scope and complexity of the project. Please contact me for a detailed quote.",
+      "He aims to study Computer Science globally and build technology that solves real-world inequities, especially in education and accessibility",
   },
   {
-    question: "How long does a typical project take?",
+    question: "How can I contact Azmain Zahin Raaz?",
     answer:
-      "The timeline for a project depends on its requirements. I will provide an estimated timeline after discussing your needs.",
-  },
-  {
-    question: "Do you work with clients internationally?",
-    answer:
-      "Yes, I collaborate with clients from around the world and am comfortable working across different time zones.",
-  },
-  {
-    question: "Can you provide examples of your previous work?",
-    answer:
-      "Certainly! You can find my portfolio on my website, showcasing various projects I've completed for clients.",
-  },
-  {
-    question: "What sets you apart from other developers?",
-    answer:
-      "My commitment to quality, attention to detail, and personalized approach to each project ensure that I deliver exceptional results tailored to my clients' needs.",
-  },
-  {
-    question: "How do you handle project revisions?",
-    answer:
-      "I offer a set number of revisions based on the project scope to ensure the final product meets your expectations.",
-  },
-  {
-    question: "What is your preferred method of communication?",
-    answer:
-      "I am flexible with communication methods, including email, video calls, and instant messaging, depending on your preference.",
+      "He can be contacted via email or through his LinkedIn and professional portfolio platforms.",
   },
 ];
 
 export const pressData: PressType[] = [
   {
-    date: "May 19, 2025",
-    imageUrl: "",
-    link: "",
-    title:
-      "DhakaTribune: From quiet in classrooms to creative triumphs - the story of Saad Al Amin",
-  },
-  {
-    date: "07 May 2025",
+    date: "May 07, 2025",
     imageUrl:
-      "https://firebasestorage.googleapis.com/v0/b/saadalamindev.appspot.com/o/posts%2Fpress%2F45.jpg?alt=media&token=ebb4bc55-b4bd-458e-90ed-50b0badcf48e",
-    link: "https://thedailycampus.com/success-story/181765/",
-    title:
-      "The Daily Campus: ৩ কোটি টাকার স্কলারশিপে যুক্তরাষ্ট্র পড়তে যাচ্ছেন তা’মীরুল মিল্লাতের সাদ ",
+      "https://boishakhionline.com/assets/news_photos/2026/01/14/image-156584-1768402039.jpg",
+    link: "https://boishakhionline.com/education/156584",
+    title: "অলিম্পিয়াডে আজমাইন জাহিন রাজের সিলভার জয়",
   },
   {
-    date: "07 May 2025",
-    imageUrl:
-      "https://firebasestorage.googleapis.com/v0/b/saadalamindev.appspot.com/o/posts%2Fpress%2Fsaad-al-amin.webp?alt=media&token=07c199de-68e2-4e61-a21d-cbc2cbd8d8c5",
-    link: "https://bongowiki.com/saad-secures-scholarship-usa/",
-    title:
-      "Madrasa Student Saad Secures BDT 3 Crore Scholarship to Study in USA",
+    date: "January 17, 2026",
+    imageUrl: "/press/iaac.jpg",
+    link: "https://www.observerbd.com/news/562698#/",
+    title: "From not knowing what an Olympiad was to winning silver at IAAC",
   },
   {
-    date: "07 May 2025",
-    iframe:
-      '<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Finsightstodayy%2Fposts%2Fpfbid02cAHsyMqiheppHYTWizct9hFVm3KJhw114CsrLdg3kAVqPHx3K6J2z6dSLCPueTVal&width=560&show_text=false&appId=992880515259603&height=314" width="560" height="314" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="web-share"></iframe>',
+    date: "December 23, 2023",
+    imageUrl: "/press/gsc.jpg",
+    link: "https://www.facebook.com/share/p/1C8QcdyoMU/",
+    title: "Breaking barriers in GSCSC history!",
+  },
+  {
+    date: "August 13, 2025",
+    imageUrl: "/press/press_4.jpg",
+    link: "https://www.facebook.com/share/p/1Bqgm9rYFR/",
+    title: "সেরা ১০-এর দারুণ ক্রিয়েশনস",
+  },
+  {
+    date: "December 15, 2023",
+    imageUrl: "/press/press_3.jpg",
     title:
       "From Madrasah to USA: Saad Secures 3 Crore Scholarship to Study at Knox College",
+  },
+  {
+    date: "August 3, 2025",
+    imageUrl: "/press/press_5.jpg",
+    link: "https://www.facebook.com/share/p/16vsZR5js9/",
+    title: "Group B (Class 9–12) Winners – BEO 2025",
+  },
+  {
+    date: "October 20, 2025",
+    imageUrl: "/press/press_6.jpg",
+    link: "https://www.facebook.com/share/p/17tGVyrYJE/",
+    title:
+      "এই বছরের #YouthSkillsDay উপলক্ষে আমাদের #AI4Change ক্যাম্পেইনে আমরা দেখেছি কিভাবে তরুণরা AI ব্যবহার করে গড়তে চায় এক নতুন বাংলাদেশ।",
   },
 ];
 
 export const featureData: FeatureType[] = [
   {
     icon: <FaMedal />,
-    title: "7+ Years Experience",
+    title: "17M+ Digital Reach",
     description:
-      "Founded Muktir Ghonta, Videophics. Worked as a Campus Ambassador at DMFF.",
+      "Scaled two platforms from zero through visual storytelling and strategic content creation.",
     color: "#fa8572",
   },
   {
     icon: <MdStars />,
-    title: "Top Six Finalist",
+    title: "20K+ Civic Engagement",
     description:
-      "Glocal Teen Hero Top Six Finalist 2022, Best Designer Award by Elan Records.",
+      "Self-taught full-stack developer earning national media coverage for gamified political participation.",
     color: "#b24968",
   },
   {
     icon: <TbRosetteDiscountCheckFilled />,
-    title: "Google Verified",
+    title: "4× Top Performer",
     description:
-      "He is verified by Google as a film-maker, musical artist and graphic designer",
+      "Generated 5M+ impressions and 1000% LinkedIn growth, promoted to Lead Generation Intern",
     color: "#4285f4",
   },
 ];
