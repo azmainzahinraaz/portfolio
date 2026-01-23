@@ -1,59 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://BASE_URL/</loc>
+    <loc>https://azmainzahinraaz.netlify.app/</loc>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
     <lastmod>2026-01-23</lastmod>
   </url>
 
   <url>
-    <loc>https://BASE_URL/about</loc>
+    <loc>https://azmainzahinraaz.netlify.app/about</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <lastmod>2026-01-23</lastmod>
   </url>
 
   <url>
-    <loc>https://BASE_URL/works</loc>
+    <loc>https://azmainzahinraaz.netlify.app/works</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <lastmod>2026-01-23</lastmod>
   </url>
 
   <url>
-    <loc>https://BASE_URL/visual-designs</loc>
+    <loc>https://azmainzahinraaz.netlify.app/visual-designs</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
     <lastmod>2026-01-23</lastmod>
   </url>
 
   <url>
-    <loc>https://BASE_URL/discuss</loc>
+    <loc>https://azmainzahinraaz.netlify.app/discuss</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
     <lastmod>2026-01-23</lastmod>
   </url>
 
   <!-- Placeholder for dynamic discussion pages. If you want to include specific discussion pages, add them here with their final URLs -->
-  <!-- <url><loc>https://BASE_URL/discussion/your-discussion-id</loc><changefreq>monthly</changefreq><priority>0.6</priority><lastmod>2026-01-23</lastmod></url> -->
+  <!-- <url><loc>https://azmainzahinraaz.netlify.app/discussion/your-discussion-id</loc><changefreq>monthly</changefreq><priority>0.6</priority><lastmod>2026-01-23</lastmod></url> -->
 
   <url>
-    <loc>https://BASE_URL/blog</loc>
+    <loc>https://azmainzahinraaz.netlify.app/blog</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
     <lastmod>2026-01-23</lastmod>
   </url>
 
   <url>
-    <loc>https://BASE_URL/faq</loc>
+    <loc>https://azmainzahinraaz.netlify.app/faq</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
     <lastmod>2026-01-23</lastmod>
   </url>
 
   <url>
-    <loc>https://BASE_URL/admin</loc>
+    <loc>https://azmainzahinraaz.netlify.app/admin</loc>
     <changefreq>never</changefreq>
     <priority>0.1</priority>
     <lastmod>2026-01-23</lastmod>
