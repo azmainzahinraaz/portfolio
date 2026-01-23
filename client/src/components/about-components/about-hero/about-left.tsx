@@ -6,7 +6,7 @@ export default function AboutLeft(): ReactNode {
       <div className="w-full flex flex-col gap-1">
         <h1 className="text-4xl text-white font-semibold">Azmain Zahin Raaz</h1>
         <p className="text-lg opacity-95 text-white font-medium">
-          Youth leader | Entrepreneur| Graphic Designer | Programmer
+          Youth leader | Entrepreneur | Graphic Designer | Programmer
         </p>
       </div>
       <div className="w-full h-px bg-gray-600 opacity-50" />

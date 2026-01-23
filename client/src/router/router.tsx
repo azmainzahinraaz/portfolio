@@ -1,6 +1,5 @@
 import { createBrowserRouter } from "react-router";
 import UserLayout from "@/layouts/user-layout";
-// import UnderDevelopment from "@/pages/under-development";
 import Blog from "@/pages/blog";
 import About from "@/pages/about";
 import Faq from "@/pages/faq";
@@ -16,17 +15,6 @@ export const router = createBrowserRouter([
   {
     path: "/",
     element: <UserLayout />,
-    // children: [
-    //   {
-    //     index: true,
-    //     element: <UnderDevelopment />,
-    //   },
-    //   {
-    //     path: "*",
-    //     element: <PageNotFound />,
-    //   },
-    // ],
-    //TODO: Uncomment the children routes when the pages are ready
     children: [
       {
         index: true,

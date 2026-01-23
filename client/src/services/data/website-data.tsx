@@ -57,25 +57,25 @@ export const testimonialData: { [type: string]: TestimonialType[] } = {
   notable: [
     {
       name: "John Doe",
-      imageUrl: "/pfp-2.png",
+      imageUrl: "/placeholderpfp.webp",
       testimonial:
         "Azmain Zahin Raaz is driven by clarity and purpose. He does not chase visibility; he focuses on building work that creates value. Whether in academics, projects, or initiatives, he approaches problems analytically and executes with discipline. His strength lies in connecting ideas with action and turning intent into outcomes. What sets Azmain apart is resilience. Growing up with limited resources, he learned to self-direct his growth and stay consistent under pressure. He works with long-term vision, prioritizing impact, integrity, and continuous improvement over short-term success.",
     },
     {
       name: "Jane Smith",
-      imageUrl: "/pfp-2.png",
+      imageUrl: "/placeholderpfp.webp",
       testimonial:
         "Azmain leads by doing. He steps forward when responsibility is unclear and ensures progress without dominating others. In team environments, he communicates directly, listens carefully, and keeps everyone aligned with the goal. His leadership style is calm, structured, and result-focused. He values people as much as process. Azmain supports peers, shares knowledge freely, and believes strong teams are built through trust and accountability. This balance makes him reliable in both leadership and collaborative roles.",
     },
     {
       name: "Alice Johnson",
-      imageUrl: "/pfp-2.png",
+      imageUrl: "/placeholderpfp.webp",
       testimonial:
         "Professionally, Azmain operates with maturity and precision. He respects deadlines, communicates clearly, and takes ownership of results. When challenges arise, he adapts quickly and focuses on solutions instead of excuses. Beyond tasks, he thinks systemically. Azmain seeks ways to improve processes, increase efficiency, and create a sustainable impact. His forward-thinking mindset makes him dependable in high-responsibility environments.",
     },
     {
       name: "Bob Brown",
-      imageUrl: "/pfp-2.png",
+      imageUrl: "/placeholderpfp.webp",
       testimonial: `In the creative arena of Bangladesh, perhaps there has never been such a talented designer at such a young age. I mentioned Saad Al Amin, a gifted and successful young graphic designer, who, despite being just a teenager, has already achieved so much. Although Saad is equally adept as a skilled video editor and a creative producer, his journey began with graphic design. Generally, if our work is not at a professional level, we do not publish it, and therefore, Saad was initially assigned the responsibility of "Prashn" (a Bangla song). Despite his age and experience, while Prashn's work was well done, we did not consider it professional enough to publish. However, later on, our perception changed when we saw Saad's designs for the #MakeMEClose (a Bangla song). Those designs captivated all of us. So much so that we officially selected Saad's typography over the typography of three other people. And this is how Saad made his entry into the professional design world. Good news is that Saad has been solely assigned the responsibility for the complete official design of the #ShowMeTheWay (a Bangla song). Once again, Saad's competence and signature are being entrusted. Some have already been published, and more is yet to come. In the future, he will do even better, and his life will add more to his history. I pray and wish for his success. Dear Tarannum's uncle and our national little brother, Miah Saad, go far ahead!! Best wishes.`,
     },
   ],

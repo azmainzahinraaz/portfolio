@@ -1,2 +1,5 @@
 User-agent: *
-Allow: *
+Disallow: /admin
+Allow: /
+
+Sitemap: https://BASE_URL/sitemap.xml

@@ -14,7 +14,7 @@ export default function HeroLeft(): ReactNode {
           </h1>
           <div className="p-2 px-3 bg-white/10 backdrop-blur-lg rounded-md w-fit">
             <p className="text-white/90 max-sm:text-sm">
-              Youth leader | Entrepreneur| Graphic Designer | Programmer
+              Youth leader | Entrepreneur | Graphic Designer | Programmer
             </p>
           </div>
         </div>
