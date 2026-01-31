@@ -20,7 +20,7 @@ export default function About(): ReactNode {
         <div className="max-w-small-max-width h-full flex flex-col gap-30">
           <AboutHero />
           <Testimonials
-            title="Notable Testimonials"
+            title="Notable Thoughts"
             data={testimonialData.notable}
           />
           <SocialLinks />

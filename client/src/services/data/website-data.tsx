@@ -56,27 +56,32 @@ export const personalInfo: { label: string; value: string }[] = [
 export const testimonialData: { [type: string]: TestimonialType[] } = {
   notable: [
     {
-      name: "John Doe",
-      imageUrl: "/placeholderpfp.webp",
+      name: "Jamil Thorne, CEO, Thorne Consulting",
+      imageUrl: "/thoughts/Jamil.jpeg",
       testimonial:
-        "Azmain Zahin Raaz is driven by clarity and purpose. He does not chase visibility; he focuses on building work that creates value. Whether in academics, projects, or initiatives, he approaches problems analytically and executes with discipline. His strength lies in connecting ideas with action and turning intent into outcomes. What sets Azmain apart is resilience. Growing up with limited resources, he learned to self-direct his growth and stay consistent under pressure. He works with long-term vision, prioritizing impact, integrity, and continuous improvement over short-term success.",
+        "Azmain can simultaneously excel in execution, leadership, and advocacy, leaving a tangible impact on both the team and the wider community. He approaches each project with genuine compassion and a remarkable sense of accountability, making sure individuals with disabilities feel represented and empowered. This young man doesn't just get things done; he elevates the work of others through initiative, reliability, and respect for impact",
     },
     {
-      name: "Jane Smith",
-      imageUrl: "/placeholderpfp.webp",
+      name: "Engineer Md. Amzad Hossain, Assistant Professor & Head of ICT Department, Government Science College",
+      imageUrl: "/thoughts/Amzad.png",
       testimonial:
-        "Azmain leads by doing. He steps forward when responsibility is unclear and ensures progress without dominating others. In team environments, he communicates directly, listens carefully, and keeps everyone aligned with the goal. His leadership style is calm, structured, and result-focused. He values people as much as process. Azmain supports peers, shares knowledge freely, and believes strong teams are built through trust and accountability. This balance makes him reliable in both leadership and collaborative roles.",
+        "For Azmain, technology is one of the languages for framing society, not an end in itself. He wants to climb, but not alone. He is building a ladder to ensure others can climb too. He is precisely the kind of person who understands that education is not a personal trophy but a collective responsibility",
     },
     {
-      name: "Alice Johnson",
-      imageUrl: "/placeholderpfp.webp",
+      name: "Jinat Jahan, Assistant Professor, Department of Bangla, Government Science College",
+      imageUrl: "/thoughts/Jinat.jpg",
       testimonial:
-        "Professionally, Azmain operates with maturity and precision. He respects deadlines, communicates clearly, and takes ownership of results. When challenges arise, he adapts quickly and focuses on solutions instead of excuses. Beyond tasks, he thinks systemically. Azmain seeks ways to improve processes, increase efficiency, and create a sustainable impact. His forward-thinking mindset makes him dependable in high-responsibility environments.",
+        "Azmain embodies the kind of intellectual engagement that makes teaching rewarding. His ability to ask insightful questions that deepen collective understanding and his instinct to lift others through patient guidance make him a valuable addition to any university community. One student told me, 'Azmain made me realize I wasn't stupid; I just needed someone to explain it differently.",
     },
     {
-      name: "Bob Brown",
-      imageUrl: "/placeholderpfp.webp",
-      testimonial: `In the creative arena of Bangladesh, perhaps there has never been such a talented designer at such a young age. I mentioned Saad Al Amin, a gifted and successful young graphic designer, who, despite being just a teenager, has already achieved so much. Although Saad is equally adept as a skilled video editor and a creative producer, his journey began with graphic design. Generally, if our work is not at a professional level, we do not publish it, and therefore, Saad was initially assigned the responsibility of "Prashn" (a Bangla song). Despite his age and experience, while Prashn's work was well done, we did not consider it professional enough to publish. However, later on, our perception changed when we saw Saad's designs for the #MakeMEClose (a Bangla song). Those designs captivated all of us. So much so that we officially selected Saad's typography over the typography of three other people. And this is how Saad made his entry into the professional design world. Good news is that Saad has been solely assigned the responsibility for the complete official design of the #ShowMeTheWay (a Bangla song). Once again, Saad's competence and signature are being entrusted. Some have already been published, and more is yet to come. In the future, he will do even better, and his life will add more to his history. I pray and wish for his success. Dear Tarannum's uncle and our national little brother, Miah Saad, go far ahead!! Best wishes.`,
+      name: "Md Salah Uddin, Associate Professor, Department of Mathematics, Government Science College",
+      imageUrl: "/thoughts/Salah.jpg",
+      testimonial: `Like a horizon slowly widening at dawn, I have watched Azmain's potential expand steadily over the past three years. He loves to treat knowledge as something that grows when shared. Whenever he starts something new, he considers whether it will open doors for other students from backgrounds like his. He wants to make the path visible for those who come after.`,
+    },
+    {
+      name: "Tashdid Bin Wahid, Former President, GSC Science Club",
+      imageUrl: "/thoughts/Tashdid.jpg",
+      testimonial: `Azmain never treated club meetings or workshops as just another task. He attended them with a genuine sense of purpose. He brings an infectious zeal, a moral foundation, and the ability to turn any ordinary project into something profound. I've no doubt that he will grow even more in your community and leave it better than he found it.`,
     },
   ],
 };

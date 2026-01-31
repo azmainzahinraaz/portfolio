@@ -25,11 +25,11 @@ export default function TestimonialCard({
         <img
           src={testimonialData.imageUrl}
           alt={testimonialData.name}
-          className="w-25 h-25 rounded-full border-10 border-dark-gray object-cover object-center"
+          className="w-25 h-25 min-w-25 min-h-25 rounded-full border-10 border-dark-gray object-cover object-center"
         />
         <div className="w-full h-full flex flex-col gap-3 justify-start text-left">
           <div className="w-full h-full flex flex-col gap-1">
-            <h3 className="text-lg font-semibold text-white">
+            <h3 className="text-lg font-semibold text-white line-clamp-1">
               {testimonialData.name}
             </h3>
             <p className="text-sm text-gray line-clamp-2">

@@ -11,8 +11,9 @@ import { useGSAP } from "@gsap/react";
 gsap.registerPlugin(ScrollTrigger, ScrollSmoother, useGSAP);
 
 export default function UserLayout(): ReactNode {
+  let smoother: ScrollSmoother | null = null;
   useGSAP(() => {
-    ScrollSmoother.create({
+    smoother = ScrollSmoother.create({
       wrapper: "#smooth-wrapper",
       content: "#smooth-content",
       smooth: 1.5, // seconds to catch up to native scroll
@@ -24,6 +25,9 @@ export default function UserLayout(): ReactNode {
 
   useEffect(() => {
     window.scrollTo(0, 0);
+    if (smoother) {
+      smoother.scrollTop();
+    }
   }, []);
 
   return (
