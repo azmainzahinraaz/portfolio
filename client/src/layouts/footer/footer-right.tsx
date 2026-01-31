@@ -27,7 +27,7 @@ export default function FooterRight(): ReactNode {
     },
     {
       name: "Blogs",
-      url: "blogs",
+      url: "blog",
     },
     {
       name: "FAQs",

@@ -8,7 +8,7 @@ export default function Navbar(): ReactNode {
   const [isNavbarOpen, setIsNavbarOpen] = useState(false);
 
   return (
-    <header className="w-screen h-19 flex justify-center items-center bg-secondary-bg-color/80 backdrop-blur-[20px] sticky top-0 z-999">
+    <header className="w-screen h-19 flex justify-center items-center bg-secondary-bg-color/80 backdrop-blur-[20px] fixed top-0 z-999">
       <nav className="w-full h-fit flex justify-between items-center max-w-max-width">
         <NavLink to="/" className="text-2xl font-bold">
           <img

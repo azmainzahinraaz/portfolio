@@ -28,10 +28,12 @@ export default function UserLayout(): ReactNode {
 
   return (
     <>
+      <Navbar />
       <div id="smooth-wrapper">
         <div id="smooth-content">
-          <Navbar />
-          <Outlet />
+          <div className="pt-19">
+            <Outlet />
+          </div>
           <Footer />
         </div>
       </div>
