@@ -26,7 +26,11 @@ function TopContentCard({ content }: { content: TopContent }): ReactNode {
         allowFullScreen
         className="w-full h-full"
         style={{
-          aspectRatio: content.src.includes("instagram.com/") ? "9/16" : "1/1",
+          aspectRatio: content.src.includes("instagram.com/")
+            ? "9/16"
+            : content.isImage
+              ? "9/11"
+              : "1/1",
         }}
       ></iframe>
     </div>

@@ -7,7 +7,7 @@ export default function FooterRight(): ReactNode {
   const pages: { name: string; url: string }[] = [
     {
       name: "Home",
-      url: "home",
+      url: "",
     },
     {
       name: "About",

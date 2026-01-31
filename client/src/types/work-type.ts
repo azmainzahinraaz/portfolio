@@ -18,6 +18,7 @@ export type DocumentaryType = {
 export type TopContent = {
   src: string;
   title: string;
+  isImage?: boolean;
 };
 
 export type SatireType = {

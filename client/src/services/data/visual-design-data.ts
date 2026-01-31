@@ -72,6 +72,9 @@ export const graphicsDesigns: GraphicsDesignType[] = [
   { imageUrl: "/graphics-design/gp-66.png" },
   { imageUrl: "/graphics-design/gp-67.png" },
   { imageUrl: "/graphics-design/gp-68.png" },
+  { imageUrl: "/graphics-design/gp-69.png" },
+  { imageUrl: "/graphics-design/gp-70.png" },
+  { imageUrl: "/graphics-design/gp-71.png" },
 ];
 
 export const handArts: HandArtType[] = [
