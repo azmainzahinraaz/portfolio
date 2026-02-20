@@ -7,7 +7,7 @@ export default function FeaturesTop(): ReactNode {
       className="w-full h-full px-17 max-sm:px-7 pt-30 pb-23 flex justify-center gap-10 max-2xl:grid max-2xl:grid-cols-3 max-md:grid-cols-1 max-md:gap-25 rounded-md"
       style={{
         background:
-          "linear-gradient(to top,rgba(0,0,0,.6) 40%,transparent),url('/azmain-features-top-bg.jpg')",
+          "linear-gradient(to top,rgba(0,0,0,.6) 40%,transparent),url('/azmain-features-top-bg.webp')",
         backgroundPosition: "center",
         backgroundSize: "cover",
         backgroundRepeat: "no-repeat",

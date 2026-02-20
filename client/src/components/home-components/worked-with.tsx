@@ -11,7 +11,7 @@ export default function WorkedWith(): ReactNode {
             {Array.from({ length: 19 }).map((_, index) => (
               <img
                 key={index}
-                src={`/companies/${index + 1}.png`}
+                src={`/companies/${index + 1}.webp`}
                 alt={`Company ${index + 1}`}
                 className="h-13 rounded-md"
               />

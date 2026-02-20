@@ -10,7 +10,7 @@ import type {
 
 export const experienceData: ExperienceType[] = [
   {
-    logoUrl: "/experiences/1.png",
+    logoUrl: "/experiences/1.webp",
     position: "Founder & Chief Executive Officer",
     company: "I Am The Rise",
     timeline: "April 2025 - Present",
@@ -19,7 +19,7 @@ export const experienceData: ExperienceType[] = [
       "Founded a youth empowerment initiative driving leadership development, environmental advocacy, and digital awareness across underserved communities. Impacted 200+ students through sustainability workshops, tree plantation campaigns, and youth protection programs across rural schools. Launched grassroots winter relief drive distributing clothing to underprivileged families through community fundraising.",
   },
   {
-    logoUrl: "/experiences/2.png",
+    logoUrl: "/experiences/2.webp",
     position: "Founder & Creative Lead",
     company: "Headline Haalchaal",
     timeline: "July 2025 - Present",
@@ -28,7 +28,7 @@ export const experienceData: ExperienceType[] = [
       "Founded design-centric, bite-sized digital news platform increasing youth engagement with current affairs through visual storytelling. Scaled from zero to 3.5K+ followers, generating 4M+ monthly views and 200K+ reactions organically. Led creative visual branding, graphic design, and content strategy using audience research to optimize reach and engagement.",
   },
   {
-    logoUrl: "/experiences/3.png",
+    logoUrl: "/experiences/3.webp",
     position: "Lead Generation Intern (Promoted from Brand Ambassador)",
     company: "Thorne Consulting",
     timeline: "Sep 2025 - Present",
@@ -37,7 +37,7 @@ export const experienceData: ExperienceType[] = [
       "Recognized as a top performer 4× among Brand Ambassadors, producing high-impact design content, reshaping disability inclusion narrative. Generated 5M+ impressions, amplifying brand visibility 15× and achieved 1000% LinkedIn search appearance surge. Promoted based on consistent excellence; now driving lead research, qualification pipelines, and data-driven outreach.",
   },
   {
-    logoUrl: "/experiences/4.png",
+    logoUrl: "/experiences/4.webp",
     position: "Founder, Content Creator & Media Contributor",
     company: "GSCians Territory",
     timeline: "May 2023 - Feb 2024",
@@ -46,7 +46,7 @@ export const experienceData: ExperienceType[] = [
       "Grew student-run college platform to 4K+ followers, generating 12M annual views and 97K reactions through peer-driven storytelling. Produced 5+ nationally recognized documentary videos and viral satirical content, achieving millions of views. Established primary digital gateway for institutional updates, catalyzing unprecedented alumni reconnection and community revitalization.",
   },
   {
-    logoUrl: "/experiences/5.png",
+    logoUrl: "/experiences/5.webp",
     position: "Executive Member & Founding Member (First Olympiad Team)",
     company: "Govt. Science College Science Club",
     timeline: "Feb 2023 - Feb 2024",
@@ -55,7 +55,7 @@ export const experienceData: ExperienceType[] = [
       "Co-founded institution's inaugural Olympiad division, architecting mentorship framework for 150+ competitive participants. Directed full-scale Olympiad operations at annual science fest, executing question curation and evaluation protocols. Delivered technical workshops and coordinated logistics, including venue design and multi-team operational management.",
   },
   {
-    logoUrl: "/experiences/6.png",
+    logoUrl: "/experiences/6.webp",
     position: "Intern",
     company: "CodeAlpha",
     timeline: "May 2025 - April 2025",
@@ -64,7 +64,7 @@ export const experienceData: ExperienceType[] = [
       "Developing technical skills through hands-on software development projects and collaborative coding challenges.",
   },
   {
-    logoUrl: "/experiences/7.png",
+    logoUrl: "/experiences/7.webp",
     position: "Volunteer",
     company: "Volunteer for Bangladesh",
     timeline: "July 2025 - August 2025",
@@ -73,7 +73,7 @@ export const experienceData: ExperienceType[] = [
       "Contributing to post-revolution community rebuilding efforts through volunteer-driven initiatives supporting local communities and civic engagement.",
   },
   {
-    logoUrl: "/experiences/8.png",
+    logoUrl: "/experiences/8.webp",
     position: "Volunteer",
     company: "Connect Japan - Study Abroad in Japan",
     timeline: "June 2025 - September 2025",
@@ -82,7 +82,7 @@ export const experienceData: ExperienceType[] = [
       "Promoting Japanese education and cultural exchange opportunities for Bangladeshi students through outreach and information sharing.",
   },
   {
-    logoUrl: "/experiences/9.png",
+    logoUrl: "/experiences/9.webp",
     position: "Assistant Executive: Event Planning & Mentorship",
     company: "Govt. Science College Photography Club",
     timeline: "May 2023 - January 2024",
@@ -91,7 +91,7 @@ export const experienceData: ExperienceType[] = [
       "Captures campus life through visual storytelling while mentoring junior photographers Documented 20+ college events with official photography and social media coverage. Organized  photowalks and 2 exhibitions showcasing student work. Mentored 15+ junior members in photography techniques, composition, and event documentation skills",
   },
   {
-    logoUrl: "/experiences/10.png",
+    logoUrl: "/experiences/10.webp",
     position: "Campus Ambassador & Intern",
     company: "International MUN",
     timeline: "May 2025 - June 2025",
@@ -100,7 +100,7 @@ export const experienceData: ExperienceType[] = [
       "Promoting Model United Nations participation and diplomatic engagement among students while supporting event coordination and outreach",
   },
   {
-    logoUrl: "/experiences/11.png",
+    logoUrl: "/experiences/11.webp",
     position: "Campus Ambassador",
     company: "Aemers Admission Worldwide",
     timeline: "May 2025 - September 2025",
@@ -109,7 +109,7 @@ export const experienceData: ExperienceType[] = [
       "Connecting students with global education opportunities and facilitating university admission guidance for international study pathways.",
   },
   {
-    logoUrl: "/experiences/12.png",
+    logoUrl: "/experiences/12.webp",
     position: "Ex-Affiliation Brand Partner",
     company: "ROOTs Edu",
     timeline: "Oct 2022 - Dec 2022",
@@ -241,7 +241,7 @@ export const certificateData: CertificateType[] = [
 
 export const publicationData: PublicationType[] = [
   {
-    imageUrl: "/publication-1.png",
+    imageUrl: "/publications/publication-1.png",
     title:
       "Accessing Accessibility of Mainstream Educational Institutions for Students with Disabilities in Bangladesh",
     author: "Azmain Zahin Raaz",
@@ -290,17 +290,17 @@ export const awardData: AwardType[] = [
 
 export const languageData: LanguageType[] = [
   {
-    imageUrl: "/images/icons/bnlang.png",
+    imageUrl: "/languages/bnlang.png",
     name: "Bengali",
     proficiency: "Native",
   },
   {
-    imageUrl: "/images/icons/enlang.png",
+    imageUrl: "/languages/enlang.png",
     name: "English",
     proficiency: "Professional Proficiency",
   },
   {
-    imageUrl: "/images/icons/hnlang.png",
+    imageUrl: "/languages/hnlang.png",
     name: "Hindi",
     proficiency: "Conversational",
   },
@@ -312,17 +312,17 @@ export const aboutSwiperData: {
   text: string;
 }[] = [
   {
-    logoUrl: "/facebook.png",
+    logoUrl: "/icons/social/facebook.png",
     platform: "Facebook",
     text: "Recognized as Content Creator",
   },
   {
-    logoUrl: "/linkedin.png",
+    logoUrl: "/icons/social/linkedin.png",
     platform: "LinkedIn",
     text: "Verified as Entrepreneur",
   },
   {
-    logoUrl: "/google.png",
+    logoUrl: "/icons/social/google.png",
     platform: "Google",
     text: "Verified as Digital Innovator",
   },

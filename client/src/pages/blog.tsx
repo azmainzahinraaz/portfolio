@@ -15,17 +15,12 @@ export default function Blog(): ReactNode {
         <title>Azmain Zahin Raaz - Blog</title>
       </Helmet>
 
-      {/* <iframe
-        src="https://boishakhionline.com/education/156584"
-        className="block w-full h-[calc(100vh-4.75rem)]"
-      ></iframe> */}
-
       <section className="w-full h-full flex justify-center pb-17">
         <div className="w-full h-full max-w-small-max-width flex flex-col gap-10">
           <div
             className="w-full h-71.5 relative after:absolute after:w-full after:h-[80%] after:bottom-0 after:bg-linear-to-t after:from-primary-bg-color after:from-10% after:to-transparent"
             style={{
-              backgroundImage: "url('coverphoto-work-1.jpg')",
+              backgroundImage: "url('coverphoto-work-1.webp')",
               backgroundSize: "cover",
               backgroundPosition: "center",
             }}

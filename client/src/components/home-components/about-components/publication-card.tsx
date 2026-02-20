@@ -41,13 +41,13 @@ export default function PublicationCard({
                 target={"_blank"}
                 isLink={true}
               >
-                {pub.logoUrl && (
+                {/* {pub.logoUrl && (
                   <img
                     src={`/images/icons/company/${pub.logoUrl}`}
                     alt={pub.name}
                     className="inline-block w-6 h-6 mr-1"
                   />
-                )}{" "}
+                )}{" "} */}
                 {pub.name}
               </PrimaryBtn>
             ))}

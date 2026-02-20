@@ -46,7 +46,7 @@ export default function Replies({
         <div className="w-full h-full p-6 py-8 flex gap-5 border-b border-dark-gray">
           {token ? (
             <img
-              src="/pfp-2.png"
+              src="/pfp-2.webp"
               alt="Admin"
               className="w-12.5 h-12.5 rounded-full object-center object-cover border-3 border-white"
             />
@@ -137,7 +137,7 @@ function ReplyCard({
     <div className="w-full h-full p-6 py-8 flex max-sm:flex-col gap-5 border-b border-dark-gray">
       {reply.isAdmin ? (
         <img
-          src="/pfp-2.png"
+          src="/pfp-2.webp"
           alt="Admin"
           className="w-12.5 h-12.5 rounded-full object-center object-cover border-3 border-white"
         />

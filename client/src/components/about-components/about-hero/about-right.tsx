@@ -5,7 +5,7 @@ export default function AboutRight(): ReactNode {
   return (
     <div className="w-1/3 max-lg:w-full min-w-105 max-lg:min-w-0 max-w-full h-fit border-2 border-red p-4 rounded-md flex flex-col gap-8">
       <img
-        src="/pfp-2.png"
+        src="/pfp-2.webp"
         alt="profile"
         className="rounded-full border-4 border-white self-center w-50 h-50 object-cover object-center"
       />

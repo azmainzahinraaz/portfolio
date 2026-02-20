@@ -172,43 +172,43 @@ export const faqData: FaqType[] = [
 export const pressData: PressType[] = [
   {
     date: "May 07, 2025",
-    imageUrl: "/press/press_1.jpg",
+    imageUrl: "/press/press_1.webp",
     link: "https://boishakhionline.com/education/156584",
     title: "অলিম্পিয়াডে আজমাইন জাহিন রাজের সিলভার জয়",
   },
   {
     date: "January 17, 2026",
-    imageUrl: "/press/iaac.jpg",
+    imageUrl: "/press/iaac.webp",
     link: "https://www.observerbd.com/news/562698#/",
     title: "From not knowing what an Olympiad was to winning silver at IAAC",
   },
   {
     date: "December 23, 2023",
-    imageUrl: "/press/gsc.jpg",
+    imageUrl: "/press/gsc.webp",
     link: "https://www.facebook.com/share/p/1C8QcdyoMU/",
     title: "Breaking barriers in GSCSC history!",
   },
   {
     date: "August 13, 2025",
-    imageUrl: "/press/press_4.jpg",
+    imageUrl: "/press/press_4.webp",
     link: "https://www.facebook.com/share/p/1Bqgm9rYFR/",
     title: "সেরা ১০-এর দারুণ ক্রিয়েশনস",
   },
   {
     date: "December 15, 2023",
-    imageUrl: "/press/press_3.jpg",
+    imageUrl: "/press/press_3.webp",
     title:
       "From Madrasah to USA: Saad Secures 3 Crore Scholarship to Study at Knox College",
   },
   {
     date: "August 3, 2025",
-    imageUrl: "/press/press_5.jpg",
+    imageUrl: "/press/press_5.webp",
     link: "https://www.facebook.com/share/p/16vsZR5js9/",
     title: "Group B (Class 9–12) Winners – BEO 2025",
   },
   {
     date: "October 20, 2025",
-    imageUrl: "/press/press_6.jpg",
+    imageUrl: "/press/press_6.webp",
     link: "https://www.facebook.com/share/p/17tGVyrYJE/",
     title:
       "এই বছরের #YouthSkillsDay উপলক্ষে আমাদের #AI4Change ক্যাম্পেইনে আমরা দেখেছি কিভাবে তরুণরা AI ব্যবহার করে গড়তে চায় এক নতুন বাংলাদেশ।",

@@ -29,7 +29,7 @@ export default function Works(): ReactNode {
           <div
             className="w-full h-71.5 relative after:absolute after:w-full after:h-[80%] after:bottom-0 after:bg-linear-to-t after:from-primary-bg-color after:from-10% after:to-transparent"
             style={{
-              backgroundImage: "url('coverphoto-work-1.jpg')",
+              backgroundImage: "url('coverphoto-work-1.webp')",
               backgroundSize: "cover",
               backgroundPosition: "center",
             }}

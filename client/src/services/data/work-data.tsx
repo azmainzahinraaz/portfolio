@@ -19,7 +19,7 @@ import {
 
 export const myWorks: MyWorkType[] = [
   {
-    imageUrl: "/my-works/iamtherise_logo.jpg",
+    imageUrl: "/my-works/iamtherise_logo.webp",
     title: "I Am The Rise",
     links: [
       {
@@ -35,7 +35,7 @@ export const myWorks: MyWorkType[] = [
     ],
   },
   {
-    imageUrl: "/my-works/headlinehaalchaal_logo.jpg",
+    imageUrl: "/my-works/headlinehaalchaal_logo.webp",
     title: "Headline Haalchaal",
     links: [
       {
@@ -56,7 +56,7 @@ export const myWorks: MyWorkType[] = [
     ],
   },
   {
-    imageUrl: "/my-works/thorne_consulting1_logo.jpg",
+    imageUrl: "/my-works/thorne_consulting1_logo.webp",
     title: "Thorne Consulting",
     links: [
       {
@@ -87,7 +87,7 @@ export const myWorks: MyWorkType[] = [
     ],
   },
   {
-    imageUrl: "/my-works/375867337_200748506352801_7519583050179028478_n.jpg",
+    imageUrl: "/my-works/375867337_200748506352801_7519583050179028478_n.webp",
     title: "GSCians Territory",
     links: [
       {
@@ -108,7 +108,7 @@ export const myWorks: MyWorkType[] = [
     ],
   },
   {
-    imageUrl: "/my-works/499469348_1290242259778101_205606045381340333_n.jpg",
+    imageUrl: "/my-works/499469348_1290242259778101_205606045381340333_n.webp",
     title: "Govt. Science College Science Club",
     links: [
       {
@@ -119,7 +119,7 @@ export const myWorks: MyWorkType[] = [
     ],
   },
   {
-    imageUrl: "/my-works/577920258_1262538062589368_7537611397331554987_n.jpg",
+    imageUrl: "/my-works/577920258_1262538062589368_7537611397331554987_n.webp",
     title: "Govt. Science College Science Club",
     links: [
       {
@@ -429,96 +429,96 @@ export const satireWorks: SatireType[] = [
 
 export const seminars: SeminarType[] = [
   {
-    imageUrl: "/seminar/s-1.jpg",
+    imageUrl: "/seminar/s-1.webp",
   },
   {
-    imageUrl: "/seminar/s-2.jpg",
+    imageUrl: "/seminar/s-2.webp",
   },
   {
-    imageUrl: "/seminar/s-3.jpg",
+    imageUrl: "/seminar/s-3.webp",
   },
   {
-    imageUrl: "/seminar/s-4.jpg",
+    imageUrl: "/seminar/s-4.webp",
   },
   {
-    imageUrl: "/seminar/s-5.jpg",
+    imageUrl: "/seminar/s-5.webp",
   },
   {
-    imageUrl: "/seminar/s-6.jpg",
+    imageUrl: "/seminar/s-6.webp",
   },
   {
-    imageUrl: "/seminar/s-7.jpg",
+    imageUrl: "/seminar/s-7.webp",
   },
   {
-    imageUrl: "/seminar/s-8.jpg",
+    imageUrl: "/seminar/s-8.webp",
   },
   {
-    imageUrl: "/seminar/s-9.jpg",
+    imageUrl: "/seminar/s-9.webp",
   },
   {
-    imageUrl: "/seminar/s-10.jpg",
+    imageUrl: "/seminar/s-10.webp",
   },
   {
-    imageUrl: "/seminar/s-11.JPG",
+    imageUrl: "/seminar/s-11.webp",
   },
   {
-    imageUrl: "/seminar/s-12.JPG",
+    imageUrl: "/seminar/s-12.webp",
   },
   {
-    imageUrl: "/seminar/s-13.JPG",
+    imageUrl: "/seminar/s-13.webp",
   },
   {
-    imageUrl: "/seminar/s-14.jpeg",
+    imageUrl: "/seminar/s-14.webp",
   },
   {
-    imageUrl: "/seminar/s-15.jpg",
+    imageUrl: "/seminar/s-15.webp",
   },
 ];
 
 export const social: SocialType[] = [
   {
-    imageUrl: "/social/1.jpg",
+    imageUrl: "/social/1.webp",
   },
   {
-    imageUrl: "/social/2.jpg",
+    imageUrl: "/social/2.webp",
   },
   {
-    imageUrl: "/social/3.jpg",
+    imageUrl: "/social/3.webp",
   },
   {
-    imageUrl: "/social/4.JPG",
+    imageUrl: "/social/4.webp",
   },
   {
-    imageUrl: "/social/5.jpg",
+    imageUrl: "/social/5.webp",
   },
   {
-    imageUrl: "/social/6.JPG",
+    imageUrl: "/social/6.webp",
   },
   {
-    imageUrl: "/social/7.jpg",
+    imageUrl: "/social/7.webp",
   },
   {
-    imageUrl: "/social/8.JPG",
+    imageUrl: "/social/8.webp",
   },
   {
-    imageUrl: "/social/9.JPG",
+    imageUrl: "/social/9.webp",
   },
   {
-    imageUrl: "/social/10.jpg",
+    imageUrl: "/social/10.webp",
   },
   {
-    imageUrl: "/social/11.jpg",
+    imageUrl: "/social/11.webp",
   },
   {
-    imageUrl: "/social/12.jpg",
+    imageUrl: "/social/12.webp",
   },
   {
-    imageUrl: "/social/13.jpg",
+    imageUrl: "/social/13.webp",
   },
   {
-    imageUrl: "/social/14.jpg",
+    imageUrl: "/social/14.webp",
   },
   {
-    imageUrl: "/social/15.jpg",
+    imageUrl: "/social/15.webp",
   },
 ];
