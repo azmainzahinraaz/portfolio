@@ -177,16 +177,14 @@ export const educationData: EducationType[] = [
 
 export const certificateData: CertificateType[] = [
   {
-    logoUrl:
-      "https://media.licdn.com/dms/image/v2/D4E0BAQGCKNEAAaAbFg/company-logo_100_100/B4EZqq7q39KgAQ-/0/1763804361080/ai_certs_logo?e=1770854400&v=beta&t=T0Q7IZdfGk0wszmHBMWqLCRPL0aI6ROnMgTRxjtuM5c#/",
+    logoUrl: "/certificates/ai.jpg",
     title: "AI Foundation™",
     issuer: "AI CERTs",
     issueDate: "Jul 2025",
     credentialUrl: "https://verify.certs365.io/?=4e8314bc5b22",
   },
   {
-    logoUrl:
-      "https://media.licdn.com/dms/image/v2/C560BAQHaVYd13rRz3A/company-logo_100_100/company-logo_100_100/0/1638831590218/linkedin_logo?e=1770854400&v=beta&t=p4BL5cwxCpBRloGXXpdHpWExkLDm2yorYUaJXWeyuqE#/",
+    logoUrl: "/certificates/programming.jpg",
     title: "Programming Foundations: Fundamentals",
     issuer: "Linkedin",
     issueDate: "may 2025",
@@ -194,8 +192,7 @@ export const certificateData: CertificateType[] = [
       "https://www.linkedin.com/learning/certificates/0b0116b45760f3e964b999a325ca9dba55fbbf6fc5a360bde700c2dc24993713",
   },
   {
-    logoUrl:
-      "https://media.licdn.com/dms/image/v2/C560BAQHOaghrduxRvw/company-logo_100_100/company-logo_100_100/0/1631300536323?e=1770854400&v=beta&t=V54cWoyJaqrlFeix01199oirF_fZpeHtVr3zpRY3OAk#/",
+    logoUrl: "/certificates/unhcr.jpg",
     title: "Durable Solutions for IDPs",
     issuer: "UNHCR, the UN Refugee Agency",
     issueDate: "Apr 2022",
@@ -203,8 +200,7 @@ export const certificateData: CertificateType[] = [
       "https://agora.unicef.org/mod/certificate/view.php?id=298552&action=get",
   },
   {
-    logoUrl:
-      "https://media.licdn.com/dms/image/v2/C4D0BAQGexnfBxeEG-g/company-logo_100_100/company-logo_100_100/0/1630530042036/coursera_logo?e=1770854400&v=beta&t=Th44DrBFLWeAI4DPcdmz4o0KEyrqzSlABgyaWZ_Tyrs",
+    logoUrl: "/certificates/ads.jpg",
     title: "Google Ads for Beginners",
     issuer: "Coursera",
     issueDate: "Apr 2022",
@@ -212,8 +208,7 @@ export const certificateData: CertificateType[] = [
       "https://www.coursera.org/account/accomplishments/records/8NTM3Z5WV0E8",
   },
   {
-    logoUrl:
-      "https://media.licdn.com/dms/image/v2/C510BAQE5WFsvU5iicw/company-logo_100_100/company-logo_100_100/0/1631310285230?e=1770854400&v=beta&t=WfTxEeV5-Oc1K8B9sf0w9yGi6PSqNtlMVdMFNPrlenE",
+    logoUrl: "/certificates/unicef.jpg",
     title: "Introduction to Child Protection",
     issuer: "UNICEF",
     issueDate: "Apr 2025",
@@ -221,24 +216,21 @@ export const certificateData: CertificateType[] = [
       "https://agora.unicef.org/mod/certificate/view.php?id=3289&action=get",
   },
   {
-    logoUrl:
-      "https://media.licdn.com/dms/image/v2/C560BAQFo_RM9apHHyw/company-logo_100_100/company-logo_100_100/0/1675588976486/10ms_logo?e=1770854400&v=beta&t=wdUVlgbbF1YUFSdCSazZ6m7tP3cGN3KmN7kLDY4lt-0",
+    logoUrl: "/certificates/presentations.jpg",
     title: "Presentation and Public Speaking",
     issuer: "10 Minute School",
     issueDate: "Apr 2025",
     credentialUrl: "https://10minuteschool.com/certificate/6806fcdd3b7c1",
   },
   {
-    logoUrl:
-      "https://media.licdn.com/dms/image/v2/C560BAQFo_RM9apHHyw/company-logo_100_100/company-logo_100_100/0/1675588976486/10ms_logo?e=1770854400&v=beta&t=wdUVlgbbF1YUFSdCSazZ6m7tP3cGN3KmN7kLDY4lt-0",
+    logoUrl: "/certificates/email.jpg",
     title: "Professional Email Writing",
     issuer: "10 Minute School",
     issueDate: "Apr 2025",
     credentialUrl: "https://10minuteschool.com/certificate/6806eca57dafa",
   },
   {
-    logoUrl:
-      "https://media.licdn.com/dms/image/v2/C560BAQHaVYd13rRz3A/company-logo_100_100/company-logo_100_100/0/1638831590218/linkedin_logo?e=1770854400&v=beta&t=p4BL5cwxCpBRloGXXpdHpWExkLDm2yorYUaJXWeyuqE",
+    logoUrl: "/certificates/project.jpg",
     title: "Project Management Foundations",
     issuer: "Linkedin",
     issueDate: "Apr 2025",
@@ -265,22 +257,19 @@ export const publicationData: PublicationType[] = [
 
 export const awardData: AwardType[] = [
   {
-    logoUrl:
-      "https://media.licdn.com/dms/image/v2/D562DAQF-t2t0xywt9A/profile-treasury-image-shrink_1280_1280/B56ZlylCErI4AQ-/0/1758563939994?e=1769709600&v=beta&t=rDtXCCF1Wjo7bEuanlKIeYmNLfOssffQorsEw1gnYDg",
+    logoUrl: "/awards/1.jpg",
     title: "Silver Honour (Top 8%)",
     issuer: "International Astronomy and Astrophysics Competition",
     issueDate: "Sep 2025",
   },
   {
-    logoUrl:
-      "https://media.licdn.com/dms/image/v2/D5622AQEgrNpMz0XKTw/feedshare-shrink_2048_1536/B56ZiirGpTHcAo-/0/1755075866460?e=1770854400&v=beta&t=t9W14kzx-Icp1hqDCoo9gPss9rFxbJL6uDv9h7lMpM4",
+    logoUrl: "/awards/2.jpg",
     title: "AI4Change Campaign Winner",
     issuer: "United Nations Development Programme in Bangladesh ",
     issueDate: "Aug 2025",
   },
   {
-    logoUrl:
-      "https://media.licdn.com/dms/image/v2/D562DAQGGVctfSQOceQ/profile-treasury-image-shrink_800_800/B56ZkEF9sWG0AY-/0/1756710298875?e=1769709600&v=beta&t=h0AewJ71Qldr9tWXbMxxPzLVreaJ-rClzjNt2zXgwq8",
+    logoUrl: "/awards/3.jpg",
     title: "Distinction Award Winner",
     issuer: "International Environmental Olympiad",
     issueDate: "Aug 2025",
