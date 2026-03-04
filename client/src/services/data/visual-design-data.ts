@@ -10,7 +10,6 @@ export const graphicsDesigns: GraphicsDesignType[] = [
   { imageUrl: "/gd-webp/gp-4.webp" },
   { imageUrl: "/gd-webp/gp-5.webp" },
   { imageUrl: "/gd-webp/gp-6.webp" },
-  { imageUrl: "/gd-webp/21st feb.png" },
   { imageUrl: "/gd-webp/gp-7.webp" },
   { imageUrl: "/gd-webp/gp-8.webp" },
   { imageUrl: "/gd-webp/gp-9.webp" },
