@@ -3,7 +3,6 @@ import PrimaryBtn from "@/components/ui/primary-btn";
 import { faqData } from "@/services/data/website-data";
 import type { FaqType } from "@/types/global-types";
 import { useEffect, type ReactNode } from "react";
-import { Helmet } from "react-helmet-async";
 
 export default function Faq({
   isHomePage = false,
@@ -16,10 +15,6 @@ export default function Faq({
 
   return (
     <>
-      <Helmet>
-        <title>Azmain Zahin Raaz - FAQ</title>
-      </Helmet>
-
       <section
         className="w-full h-full py-15 flex flex-col gap-12 justify-center items-center"
         style={{

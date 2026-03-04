@@ -10,6 +10,7 @@ import Discussions from "@/pages/discussions";
 import Discussion from "@/pages/discussion";
 import Admin from "@/pages/admin";
 import VisualDesigns from "../pages/visual-designs";
+import { Helmet } from "react-helmet-async";
 
 export const router = createBrowserRouter([
   {
@@ -47,7 +48,15 @@ export const router = createBrowserRouter([
       },
       {
         path: "/faq",
-        element: <Faq isHomePage={false} />,
+        element: (
+          <>
+            <Helmet>
+              <title>Azmain Zahin Raaz - FAQ</title>
+            </Helmet>
+
+            <Faq isHomePage={false} />
+          </>
+        ),
       },
       {
         path: "/admin",
