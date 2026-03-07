@@ -101,7 +101,7 @@ export const graphicsDesigns: GraphicsDesignType[] = [
   { imageUrl: "/gd-webp/gd-80.webp" },
   { imageUrl: "/gd-webp/gd-81.webp" },
   { imageUrl: "/gd-webp/gd-82.webp" },
-  { imageUrl: "/gd-webp/gd-83.webp" },{ imageUrl: "/gd-webp/Follow Headline Haalchaal - 2026-02-13T201329.372.png" },
+  { imageUrl: "/gd-webp/gd-83.webp" },
   { imageUrl: "/gd-webp/gd-84.webp" },
   { imageUrl: "/gd-webp/gd-85.webp" },
   { imageUrl: "/gd-webp/gd-86.webp" },
