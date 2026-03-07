@@ -31,7 +31,7 @@ export default function HeroLeft(): ReactNode {
             Learn More
           </PrimaryBtn>
           <NavLink
-            to={"/discussions"}
+            to={"/discuss"}
             className={
               "text-white flex gap-3 items-center hover:gap-5 transition-all duration-200 text-lg max-sm:text-base"
             }
