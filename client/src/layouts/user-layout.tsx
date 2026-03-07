@@ -1,8 +1,8 @@
 import { useEffect, type ReactNode } from "react";
-// import { Outlet } from "react-router";
-// import Navbar from "./navbar";
-// import Footer from "./footer/footer";
-// import { Toaster } from "react-hot-toast";
+import { Outlet } from "react-router";
+import Navbar from "./navbar";
+import Footer from "./footer/footer";
+import { Toaster } from "react-hot-toast";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { ScrollSmoother } from "gsap/ScrollSmoother";
@@ -32,7 +32,7 @@ export default function UserLayout(): ReactNode {
 
   return (
     <>
-      {/* <Navbar />
+      <Navbar />
       <div id="smooth-wrapper">
         <div id="smooth-content">
           <div className="pt-19">
@@ -41,7 +41,7 @@ export default function UserLayout(): ReactNode {
           <Footer />
         </div>
       </div>
-      <Toaster position="top-right" /> */}
+      <Toaster position="top-right" />
     </>
   );
 }
