@@ -1,74 +1,74 @@
-import { createBrowserRouter, Navigate } from "react-router";
-// import UserLayout from "@/layouts/user-layout";
-// import Blog from "@/pages/blog";
-// import About from "@/pages/about";
-// import Faq from "@/pages/faq";
-// import PageNotFound from "@/pages/page-not-found";
-// import Home from "@/pages/home";
-// import Works from "@/pages/works";
-// import Discussions from "@/pages/discussions";
-// import Discussion from "@/pages/discussion";
-// import Admin from "@/pages/admin";
-// import VisualDesigns from "../pages/visual-designs";
-// import UnderDevelopment from "@/pages/under-development";
+import { createBrowserRouter } from "react-router";
+import UserLayout from "@/layouts/user-layout";
+import Blog from "@/pages/blog";
+import About from "@/pages/about";
+import Faq from "@/pages/faq";
 import PageNotFound from "@/pages/page-not-found";
+import Home from "@/pages/home";
+import Works from "@/pages/works";
+import Discussions from "@/pages/discussions";
+import Discussion from "@/pages/discussion";
+import Admin from "@/pages/admin";
+import VisualDesigns from "../pages/visual-designs";
+// import UnderDevelopment from "@/pages/under-development";
+// import PageNotFound from "@/pages/page-not-found";
 
 export const router = createBrowserRouter([
-  // {
-  //   path: "/",
-  //   element: <UserLayout />,
-  //   children: [
-  //     {
-  //       index: true,
-  //       element: <Home />,
-  //     },
-  //     {
-  //       path: "/about",
-  //       element: <About />,
-  //     },
-  //     {
-  //       path: "/works",
-  //       element: <Works />,
-  //     },
-  //     {
-  //       path: "/visual-designs",
-  //       element: <VisualDesigns />,
-  //     },
-  //     {
-  //       path: "/discuss",
-  //       element: <Discussions />,
-  //     },
-  //     {
-  //       path: "/discussion/:discussionId",
-  //       element: <Discussion />,
-  //       errorElement: <PageNotFound />,
-  //     },
-  //     {
-  //       path: "/blog",
-  //       element: <Blog />,
-  //     },
-  //     {
-  //       path: "/faq",
-  //       element: <Faq isHomePage={false} />,
-  //     },
-  //     {
-  //       path: "/admin",
-  //       element: <Admin />,
-  //     },
-  //     {
-  //       path: "*",
-  //       element: <PageNotFound />,
-  //     },
-  //   ],
-  // },
   {
     path: "/",
-    element: <Navigate to={"/under-development"} />,
+    element: <UserLayout />,
     children: [
+      {
+        index: true,
+        element: <Home />,
+      },
+      {
+        path: "/about",
+        element: <About />,
+      },
+      {
+        path: "/works",
+        element: <Works />,
+      },
+      {
+        path: "/visual-designs",
+        element: <VisualDesigns />,
+      },
+      {
+        path: "/discuss",
+        element: <Discussions />,
+      },
+      {
+        path: "/discussion/:discussionId",
+        element: <Discussion />,
+        errorElement: <PageNotFound />,
+      },
+      {
+        path: "/blog",
+        element: <Blog />,
+      },
+      {
+        path: "/faq",
+        element: <Faq isHomePage={false} />,
+      },
+      {
+        path: "/admin",
+        element: <Admin />,
+      },
       {
         path: "*",
         element: <PageNotFound />,
       },
     ],
   },
+  // {
+  //   path: "/",
+  //   element: <Navigate to={"/under-development"} />,
+  //   children: [
+  //     {
+  //       path: "*",
+  //       element: <PageNotFound />,
+  //     },
+  //   ],
+  // },
 ]);
