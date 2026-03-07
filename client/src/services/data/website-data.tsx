@@ -174,7 +174,7 @@ export const pressData: PressType[] = [
     date: "May 07, 2025",
     imageUrl: "/press/press_1.webp",
     link: "https://boishakhionline.com/education/156584",
-    title: "অলিম্পিয়াডে আজমাইন জাহিন রাজের সিলভার জয়",
+    title: "Azmain Zahin Raaz Earns Silver Medal at the International Astronomy and Astrophysics Competition",
   },
   {
     date: "January 17, 2026",
